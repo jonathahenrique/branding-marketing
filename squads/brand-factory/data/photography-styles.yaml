@@ -1,0 +1,133 @@
+# ══════════════════════════════════════════════════════════
+#   Brand Factory — Photography Styles
+#   Direcao fotografica por nicho e arquetipo
+# ══════════════════════════════════════════════════════════
+
+styles:
+
+  editorial:
+    label: "Editorial"
+    description: "Fotografia artistica, composicao cinematografica, storytelling visual"
+    lighting: "Dramatica, direcional, alto contraste com sombras intencionais"
+    composition: "Regra dos tercos, leading lines, framing criativo, profundidade de campo rasa"
+    color_treatment: "Cor editada com intencao — pode ser dessaturada, duotone, ou color-graded"
+    subjects: ["Retratos emotivos", "Detalhes artesanais", "Ambientes atmosfericos", "Composicoes abstratas"]
+    avoid: ["Imagens stock genericas", "Iluminacao flat", "Sorrisos forcados", "Fundos brancos puros"]
+    archetypes: [criador, amante, mago]
+    niches: [moda, beleza, gastronomia, criativo]
+
+  lifestyle:
+    label: "Lifestyle"
+    description: "Pessoas reais em situacoes reais, autenticidade e conexao humana"
+    lighting: "Natural, golden hour, janelas grandes, luz suave difusa"
+    composition: "Candid, momentos espontaneos, interacao genuina, ambiente contextual"
+    color_treatment: "Quente, ligeiramente dessaturado, tons de pele naturais, filtro minimo"
+    subjects: ["Pessoas usando o produto/servico", "Momentos do dia-a-dia", "Ambientes domesticos", "Interacao social genuina"]
+    avoid: ["Poses artificiais", "Ambiente de estudio", "Perfecao irreal", "Diversidade tokenizada"]
+    archetypes: [cuidador, inocente, explorador]
+    niches: [saude, pet, educacao]
+
+  product:
+    label: "Produto"
+    description: "Foco no produto com iluminacao controlada e composicao limpa"
+    lighting: "Estudio controlado, softbox, rim light para separacao do fundo"
+    composition: "Produto centrado, angulos multiplos (hero, 45°, flat lay), contexto minimo"
+    color_treatment: "Cores fieis ao produto, fundo neutro ou em cor da marca"
+    subjects: ["Produto isolado", "Detalhes macro", "Packaging", "Flat lays compostos"]
+    avoid: ["Distracao no fundo", "Cores distorcidas", "Sombras duras nao intencionais"]
+    archetypes: [especialista, governante]
+    niches: [varejo, beleza, gastronomia]
+
+  action:
+    label: "Acao & Performance"
+    description: "Captura de movimento, energia e dinamismo"
+    lighting: "Alto contraste, flash de alta velocidade, luz dura e dramatica"
+    composition: "Momentos de pico de acao, angulos dramaticos (low angle), motion blur intencional"
+    color_treatment: "Alto contraste, saturacao aumentada em cores de marca, preto e branco forte"
+    subjects: ["Atletas em movimento", "Performance", "Expressoes de esforco", "Equipamento em uso"]
+    avoid: ["Estaticidade", "Iluminacao flat", "Poses relaxadas", "Tons pasteis"]
+    archetypes: [heroi, rebelde]
+    niches: [fitness, varejo]
+
+  corporate:
+    label: "Corporativo Moderno"
+    description: "Profissional mas humano, ambientes de trabalho contemporaneos"
+    lighting: "Natural + artificial equilibrado, bem iluminado, sem sombras duras"
+    composition: "Pessoas em ambientes de trabalho, interacao profissional, espaços modernos"
+    color_treatment: "Neutro, ligeiramente frio (azulado), clean e profissional"
+    subjects: ["Equipes em colaboracao", "Espacos de trabalho", "Tecnologia em uso", "Reunioes e workshops"]
+    avoid: ["Handshakes cliches", "Sorrisos stock", "Terno formal excessivo", "Escritorios genericos"]
+    archetypes: [especialista, sabio, governante]
+    niches: [servicos, financas, tech]
+
+  abstract:
+    label: "Abstrato & Generativo"
+    description: "Formas, texturas, gradientes e arte generativa como elemento visual principal"
+    lighting: "N/A — gerado digitalmente ou fotografado em macro extremo"
+    composition: "Formas organicas, padroes, simetria ou caos intencional, texturas macro"
+    color_treatment: "Cores da marca aplicadas em gradientes, duotones ou overlays"
+    subjects: ["Gradientes", "Padroes geometricos", "Texturas macro", "Arte generativa", "Fluidos"]
+    avoid: ["Pessoas", "Produtos reais", "Cenarios identificaveis"]
+    archetypes: [mago, criador, rebelde]
+    niches: [tech, criativo]
+
+  warm_organic:
+    label: "Quente & Organico"
+    description: "Tons terrosos, materiais naturais, sensacao tactil e acolhedora"
+    lighting: "Luz natural quente, golden hour, velas, luz de janela"
+    composition: "Close-ups de texturas, materiais naturais, arranjos organicos (nao perfeitamente alinhados)"
+    color_treatment: "Quente, tons terrosos (terracotta, mostarda, verde musgo), film look"
+    subjects: ["Materiais naturais (madeira, ceramica, linho)", "Texturas organicas", "Alimentos artesanais", "Mãos trabalhando"]
+    avoid: ["Plastico", "Cores neon", "Ambientes industriais", "Perfeicao digital"]
+    archetypes: [cuidador, explorador, amante]
+    niches: [gastronomia, saude, pet]
+
+  minimal:
+    label: "Minimal"
+    description: "Maximo impacto com minimo de elementos. Espaco negativo e o protagonista."
+    lighting: "Suave, difusa, sem sombras duras, high-key ou low-key intencional"
+    composition: "Um sujeito, muito espaco vazio, centralizacao ou regra dos tercos extrema"
+    color_treatment: "Monocromatico ou paleta restrita (max 2-3 cores), dessaturado"
+    subjects: ["Objeto unico", "Detalhe isolado", "Silhueta", "Geometria simples"]
+    avoid: ["Poluicao visual", "Multiplos pontos focais", "Cores vibrantes demais", "Texturas pesadas"]
+    archetypes: [sabio, governante, inocente]
+    niches: [moda, financas, servicos]
+
+# Iconography presets
+iconography:
+
+  outline:
+    label: "Outline"
+    style: "Icones de contorno com espessura consistente"
+    grid: "24x24"
+    strokeWidth: "1.5px"
+    cornerRadius: "2px"
+    archetypes: [especialista, sabio, governante, explorador]
+    libraries: ["Lucide", "Phosphor (thin/light)", "Heroicons (outline)"]
+
+  filled:
+    label: "Filled"
+    style: "Icones preenchidos, solidos, com formas claras"
+    grid: "24x24"
+    strokeWidth: "0px"
+    cornerRadius: "2px"
+    archetypes: [heroi, rebelde, bobo]
+    libraries: ["Heroicons (solid)", "Material Icons (filled)", "Phosphor (fill)"]
+
+  duotone:
+    label: "Duotone"
+    style: "Dois tons — outline + fill parcial com opacidade"
+    grid: "24x24"
+    strokeWidth: "1.5px"
+    cornerRadius: "2px"
+    archetypes: [criador, mago, amante]
+    libraries: ["Phosphor (duotone)", "Remix Icons"]
+
+  rounded:
+    label: "Rounded"
+    style: "Contorno arredondado, amigavel e acessivel"
+    grid: "24x24"
+    strokeWidth: "2px"
+    cornerRadius: "4px"
+    archetypes: [cuidador, inocente, bobo]
+    libraries: ["Lucide", "Material Icons (rounded)", "Phosphor (regular)"]

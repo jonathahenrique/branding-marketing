@@ -1,0 +1,258 @@
+# ══════════════════════════════════════════════════════════
+#   Brand Factory — Voice Archetype Map
+#   Estilos de voz por arquetipo com regras e exemplos
+# ══════════════════════════════════════════════════════════
+
+voice_styles:
+
+  especialista:
+    archetype_name: "O Mentor Tecnico"
+    tone: "autoritativo-acessivel"
+    description: "Fala com autoridade de quem domina o assunto, mas sem arrogancia. Ensina enquanto comunica."
+    traits:
+      - { trait: "Preciso", desc: "Cada palavra e escolhida com intencao; evita ambiguidade" }
+      - { trait: "Didatico", desc: "Explica conceitos complexos de forma clara" }
+      - { trait: "Confiavel", desc: "Sustenta afirmacoes com dados e experiencia" }
+      - { trait: "Direto", desc: "Vai ao ponto sem rodeios desnecessarios" }
+    isNot:
+      - "Arrogante ou condescendente"
+      - "Excessivamente tecnico para o publico"
+      - "Vago ou generalista"
+    rules:
+      - { rule: "Sempre use dados ou exemplos para sustentar afirmacoes", example: "Empresas que investem em branding tem 23% mais receita recorrente." }
+      - { rule: "Linguagem ativa, nunca passiva", example: "Implementamos a solucao em 3 dias.", bad: "A solucao foi implementada em 3 dias." }
+      - { rule: "Jargao tecnico apenas quando o publico entende", example: "O ROI medio e de 340% no primeiro ano." }
+      - { rule: "Conclusoes antes de explicacoes", example: "Resultado: 50% mais leads. Como: redesenhamos o funil inteiro." }
+      - { rule: "Numeros especificos, nunca 'muitos' ou 'varios'", example: "847 empresas usam nossa metodologia.", bad: "Muitas empresas confiam em nos." }
+    references: ["McKinsey Insights", "Harvard Business Review", "Stripe Blog"]
+
+  rebelde:
+    archetype_name: "O Provocador"
+    tone: "provocativo-direto"
+    description: "Desafia o status quo sem medo. Fala o que outros nao falam. Direto, provocativo, sem filtro."
+    traits:
+      - { trait: "Provocativo", desc: "Questiona convencoes e faz o publico pensar" }
+      - { trait: "Direto", desc: "Zero rodeios, zero linguagem corporativa" }
+      - { trait: "Irreverente", desc: "Humor acido, referencias inesperadas" }
+      - { trait: "Autenticamente bold", desc: "Posiciona-se mesmo quando impopular" }
+    isNot:
+      - "Ofensivo por ser ofensivo"
+      - "Edgy sem proposito"
+      - "Corporativo tentando parecer cool"
+    rules:
+      - { rule: "Frase curta, impacto grande", example: "Seu marketing nao funciona. Quer saber por que?" }
+      - { rule: "Questione o obvio", example: "Todo mundo faz assim. E por isso que todo mundo tem os mesmos resultados.", bad: "Oferecemos abordagens diferenciadas." }
+      - { rule: "Use contraste (vs. concorrencia, vs. convencional)", example: "Eles prometem. Nos entregamos." }
+      - { rule: "Nunca se desculpe por ser direto", example: "Isso vai doer: sua marca precisa de cirurgia, nao de curativo." }
+      - { rule: "Quebre a quarta parede ocasionalmente", example: "Sim, somos aquele tipo de empresa. E sim, funciona." }
+    references: ["Liquid Death", "Cards Against Humanity", "BrewDog"]
+
+  cuidador:
+    archetype_name: "O Guia Acolhedor"
+    tone: "empatico-encorajador"
+    description: "Acolhe, encoraja e faz sentir seguro. Cada interacao deve fazer o publico sentir que alguem se importa."
+    traits:
+      - { trait: "Empatico", desc: "Reconhece dores e sentimentos do publico" }
+      - { trait: "Encorajador", desc: "Motiva sem pressionar, celebra pequenas vitorias" }
+      - { trait: "Paciente", desc: "Explica quantas vezes for necessario, sem frustrar" }
+      - { trait: "Gentil", desc: "Ton amigavel que acolhe todos os niveis de conhecimento" }
+    isNot:
+      - "Paternalista ou condescendente"
+      - "Fake positivo ou toxico"
+      - "Urgente ou pressionador"
+    rules:
+      - { rule: "Sempre comece reconhecendo a dor/situacao do publico", example: "Sabemos como e dificil dar o primeiro passo. Estamos aqui para ajudar." }
+      - { rule: "Use 'voce' mais que 'nos'", example: "Voce merece cuidado de qualidade.", bad: "Nos oferecemos cuidado de qualidade." }
+      - { rule: "Celebre conquistas, mesmo pequenas", example: "Cada passo conta. Voce ja esta no caminho certo." }
+      - { rule: "Nunca use linguagem de medo ou urgencia", example: "Quando estiver pronto, estaremos aqui.", bad: "Nao perca essa oportunidade!" }
+      - { rule: "Inclua sempre — ninguem deve se sentir excluido", example: "Para todas as idades, todos os momentos." }
+    references: ["Headspace", "Dove", "TOMS"]
+
+  criador:
+    archetype_name: "O Visionario Criativo"
+    tone: "inspirador-imaginativo"
+    description: "Inspira pela possibilidade. Cada comunicacao abre uma porta para algo novo. Visionario sem ser vago."
+    traits:
+      - { trait: "Visionario", desc: "Enxerga possibilidades onde outros veem limitacoes" }
+      - { trait: "Expressivo", desc: "Usa linguagem rica e evocativa" }
+      - { trait: "Curioso", desc: "Faz perguntas que estimulam criatividade" }
+      - { trait: "Ousado", desc: "Propoe ideias que desafiam o convencional" }
+    isNot:
+      - "Abstrato demais ou desconectado da realidade"
+      - "Pretensioso ou inacessivel"
+      - "Vago sem substancia"
+    rules:
+      - { rule: "Mostre o 'e se' antes do 'como'", example: "E se sua marca pudesse contar uma historia diferente a cada toque?" }
+      - { rule: "Use metaforas visuais e sensoriais", example: "Design e a lingua que sua marca fala quando voce nao esta olhando." }
+      - { rule: "Conecte criatividade com resultado tangivel", example: "Uma identidade visual que converte 3x mais. Arte com proposito." }
+      - { rule: "Convide a co-criar", example: "Vamos construir isso juntos. Sua visao, nossa execucao." }
+      - { rule: "Surpreenda com combinacoes inesperadas", example: "Tecnologia encontra poesia. Dados encontram alma." }
+    references: ["Apple", "Adobe Creative Cloud", "Figma"]
+
+  explorador:
+    archetype_name: "O Guia Aventureiro"
+    tone: "aventureiro-autenticamente-curioso"
+    description: "Convida a descobrir. Cada interacao e uma jornada. Autenticamente curioso e engajante."
+    traits:
+      - { trait: "Curioso", desc: "Genuinamente interessado em descobrir e compartilhar" }
+      - { trait: "Inspirador", desc: "Faz o publico querer explorar e experimentar" }
+      - { trait: "Autentico", desc: "Sem filtros corporativos, linguagem real" }
+      - { trait: "Destemido", desc: "Abraca o desconhecido com entusiasmo" }
+    isNot:
+      - "Irresponsavel ou imprudente"
+      - "Superficial ou turistico"
+      - "Pretensamente aventureiro sem substancia"
+    rules:
+      - { rule: "Use verbos de acao e movimento", example: "Explore, descubra, desbrave novos caminhos.", bad: "Oferecemos opcoes variadas para voce." }
+      - { rule: "Crie senso de jornada, nao de destino", example: "O caminho e tao valioso quanto a chegada." }
+      - { rule: "Compartilhe descobertas genuinas", example: "Descobrimos algo incrivel essa semana — e queremos dividir com voce." }
+      - { rule: "Convide a sair da zona de conforto", example: "Ja tentou algo novo essa semana?" }
+      - { rule: "Conecte experiencia com transformacao", example: "Cada nova rota muda quem somos." }
+    references: ["Patagonia", "National Geographic", "Airbnb"]
+
+  heroi:
+    archetype_name: "O Coach Motivacional"
+    tone: "motivacional-direto"
+    description: "Empurra para a acao. Acredita no potencial de cada pessoa. Linguagem de superacao, sem ser tossico."
+    traits:
+      - { trait: "Motivacional", desc: "Inspira acao e superacao" }
+      - { trait: "Confiante", desc: "Transmite certeza sem arrogancia" }
+      - { trait: "Energetico", desc: "Carregado de energia e vontade" }
+      - { trait: "Orientado a resultado", desc: "Foco no que voce vai conquistar" }
+    isNot:
+      - "Toxicamente positivo"
+      - "Bully motivacional (hustle culture)"
+      - "Condescendente com quem nao 'perfoma'"
+    rules:
+      - { rule: "Foco no resultado e na conquista", example: "Voce vai olhar para tras e ver o quanto avancou." }
+      - { rule: "Linguagem de superacao, nao de pressao", example: "Seu proximo nivel esta a um passo.", bad: "Se voce nao esta crescendo, esta morrendo." }
+      - { rule: "Use imperativos com energia", example: "Comece agora. Construa. Conquiste." }
+      - { rule: "Celebre a jornada tanto quanto o resultado", example: "Cada treino conta. Cada esforco importa." }
+      - { rule: "Contraste antes vs depois", example: "Ontem: duvida. Hoje: acao. Amanha: resultado." }
+    references: ["Nike", "Under Armour", "Tony Robbins"]
+
+  mago:
+    archetype_name: "O Alquimista"
+    tone: "visionario-misterioso"
+    description: "Cria senso de transformacao e possibilidade magica. Torna o complexo fascinante, o ordinario extraordinario."
+    traits:
+      - { trait: "Transformador", desc: "Cada interacao promete e entrega mudanca" }
+      - { trait: "Misterioso", desc: "Cria curiosidade e antecipacao" }
+      - { trait: "Visionario", desc: "Enxerga o futuro antes dos outros" }
+      - { trait: "Sofisticado", desc: "Linguagem elegante e precisa" }
+    isNot:
+      - "Enganador ou manipulador"
+      - "Vago sem entrega"
+      - "Mistico sem substancia"
+    rules:
+      - { rule: "Crie senso de antes e depois transformador", example: "O que parecia impossivel ontem, hoje e sua nova realidade." }
+      - { rule: "Use linguagem de revelacao", example: "Descubra o que esta por tras da cortina." }
+      - { rule: "Prometa transformacao, entregue resultado", example: "Nao vendemos software. Vendemos tempo de volta." }
+      - { rule: "Mantenha um ar de exclusividade", example: "Para quem entende que resultados extraordinarios exigem metodos extraordinarios." }
+      - { rule: "Conecte tecnologia com magia pratica", example: "Automacao que parece magica. Mas e engenharia." }
+    references: ["Tesla", "Apple (Steve Jobs era)", "Disney"]
+
+  amante:
+    archetype_name: "O Curador de Experiencias"
+    tone: "sensorial-elegante"
+    description: "Cada palavra deve evocar sensacao. A comunicacao e uma experiencia em si — visual, tactil, emocional."
+    traits:
+      - { trait: "Sensorial", desc: "Evoca sensacoes — textura, sabor, aroma, som" }
+      - { trait: "Elegante", desc: "Nunca grosseiro, sempre refinado" }
+      - { trait: "Intimo", desc: "Fala como se fosse so para voce" }
+      - { trait: "Apaixonado", desc: "Entusiasmo genuino por qualidade e beleza" }
+    isNot:
+      - "Vulgar ou apelativo"
+      - "Superficial ou vazio"
+      - "Frio ou distante"
+    rules:
+      - { rule: "Evoque sensacoes fisicas", example: "Sinta a textura. Respire o aroma. Viva a experiencia." }
+      - { rule: "Use adjetivos sensoriais (nunca genericos)", example: "Aveludado, crocante, luminoso.", bad: "Bom, legal, bonito." }
+      - { rule: "Crie intimidade com o leitor", example: "Isso foi feito pensando em voce. Em cada detalhe." }
+      - { rule: "Celebre o processo tanto quanto o produto", example: "48 horas de fermentacao. 200 anos de tradicao. Um momento seu." }
+      - { rule: "Qualidade e mais importante que quantidade", example: "Menos, mas melhor. Sempre." }
+    references: ["Aesop", "Le Labo", "Noma"]
+
+  bobo:
+    archetype_name: "O Comediante Esperto"
+    tone: "divertido-esperto"
+    description: "Humor inteligente que nunca ofende. Leve, espontaneo, e faz voce sorrir enquanto comunica valor."
+    traits:
+      - { trait: "Divertido", desc: "Humor natural que nunca e forcado" }
+      - { trait: "Esperto", desc: "Inteligencia por tras da diversao" }
+      - { trait: "Espontaneo", desc: "Tom casual e acessivel" }
+      - { trait: "Auto-depreciativo", desc: "Ri de si mesmo quando apropriado" }
+    isNot:
+      - "Ofensivo ou insensivel"
+      - "Forcado ou cringe"
+      - "Infantil sem proposito"
+    rules:
+      - { rule: "Humor serve a mensagem, nunca o contrario", example: "Seus dados estao seguros. Tipo, cofre-de-banco segros. Tipo, bunker-no-Alaska seguros." }
+      - { rule: "Trocadilhos e jokes internos sao bem-vindos", example: "Nosso suporte e tao rapido que ate nos assustamos as vezes." }
+      - { rule: "Quebre a quarta parede", example: "Sim, esse e um email de marketing. Mas pelo menos e divertido, ne?" }
+      - { rule: "Erros e bugs com humor", example: "Algo deu errado. Provavelmente culpa de um gremlin digital.", bad: "Erro 500: Internal Server Error." }
+      - { rule: "Nunca faca piada sobre problemas do usuario", example: "A gente bugou, nao voce. Ja estamos consertando!" }
+    references: ["Duolingo", "Mailchimp", "Old Spice"]
+
+  inocente:
+    archetype_name: "O Otimista"
+    tone: "otimista-simples"
+    description: "Ve o melhor em tudo. Comunicacao simples, honesta e positiva. Faz voce acreditar que o mundo pode ser bom."
+    traits:
+      - { trait: "Otimista", desc: "Sempre ve o lado positivo, nunca ingenuo" }
+      - { trait: "Simples", desc: "Linguagem clara que qualquer pessoa entende" }
+      - { trait: "Honesto", desc: "Transparencia como valor inegociavel" }
+      - { trait: "Acolhedor", desc: "Todos sao bem-vindos, sem excecao" }
+    isNot:
+      - "Ingenuo ou desinformado"
+      - "Simplista ao ponto de perder valor"
+      - "Toxicamente positivo ignorando problemas reais"
+    rules:
+      - { rule: "Linguagem simples e direta (leitura nivel 8o ano)", example: "Comida boa para todo mundo.", bad: "Alimentos organicos democratizados para todas as camadas sociais." }
+      - { rule: "Foco no positivo sem ignorar a realidade", example: "Nem tudo e perfeito, mas estamos trabalhando para melhorar." }
+      - { rule: "Inclusao como padrao, nao como feature", example: "Para todos. Sempre." }
+      - { rule: "Evite jargao, siglas e linguagem excludente", example: "Seu pedido esta a caminho!", bad: "Tracking ID: TRK-847291 dispatched via fulfillment center." }
+      - { rule: "Celebre o simples", example: "Um cafe. Um sorriso. Um bom dia." }
+    references: ["Coca-Cola", "Innocent Drinks", "Whole Foods"]
+
+  sabio:
+    archetype_name: "O Pensador"
+    tone: "reflexivo-analitico"
+    description: "Convida a reflexao profunda. Cada comunicacao oferece insight genuino. Profundidade sem pretensao."
+    traits:
+      - { trait: "Reflexivo", desc: "Convida o publico a pensar junto" }
+      - { trait: "Analitico", desc: "Baseado em dados, pesquisa e evidencia" }
+      - { trait: "Ponderado", desc: "Considera multiplas perspectivas" }
+      - { trait: "Eloquente", desc: "Linguagem precisa e bem estruturada" }
+    isNot:
+      - "Pretensioso ou inacessivel"
+      - "Paralizado por analise"
+      - "Frio ou desconectado"
+    rules:
+      - { rule: "Oferea insight, nao informacao obviva", example: "O problema nao e falta de leads. E falta de qualificacao.", bad: "Muitas empresas tem dificuldade com leads." }
+      - { rule: "Use perguntas retoricas para guiar reflexao", example: "O que acontece quando uma marca para de ouvir seus clientes?" }
+      - { rule: "Cite fontes e dados quando possivel", example: "Segundo pesquisa da Harvard (2024), 78% das decisoes de compra..." }
+      - { rule: "Estruture argumentos logicamente", example: "Premissa → Evidencia → Conclusao → Acao sugerida" }
+      - { rule: "Admita complexidade sem simplificar demais", example: "A resposta honesta: depende. E aqui esta o framework para decidir." }
+    references: ["The Economist", "Wikipedia", "TED Talks"]
+
+  governante:
+    archetype_name: "O Lider Premium"
+    tone: "autoritativo-premium"
+    description: "Comunica com a confianca de quem lidera. Cada palavra reafirma posicao e excelencia. Premium sem esnobismo."
+    traits:
+      - { trait: "Confiante", desc: "Sabe seu valor e comunica com certeza" }
+      - { trait: "Premium", desc: "Qualidade implicita em cada detalhe" }
+      - { trait: "Estruturado", desc: "Comunicacao organizada e hierarquica" }
+      - { trait: "Aspiracional", desc: "Eleva o publico, nao diminui" }
+    isNot:
+      - "Esnobe ou excludente"
+      - "Pomposo ou autoindulgente"
+      - "Frio ou desumano"
+    rules:
+      - { rule: "Implique qualidade, nao diga", example: "Desde 1925.", bad: "Somos uma empresa de alta qualidade desde 1925." }
+      - { rule: "Menos e mais — concisao e poder", example: "Excelencia.", bad: "Nos nos dedicamos a entregar a maxima excelencia." }
+      - { rule: "Use imperativos que elevam", example: "Eleve seu padrao.", bad: "Compre nosso produto premium." }
+      - { rule: "Tradicao e inovacao juntas", example: "Centenaria. Atemporal. Atual." }
+      - { rule: "Exclusividade como aspiracao, nao barreira", example: "Para quem reconhece a diferenca." }
+    references: ["Rolex", "Mercedes-Benz", "American Express"]

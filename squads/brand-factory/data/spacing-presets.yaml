@@ -1,0 +1,79 @@
+# ══════════════════════════════════════════════════════════
+#   Brand Factory — Spacing Presets
+#   Presets de spacing por tipo de marca
+# ══════════════════════════════════════════════════════════
+
+presets:
+
+  compact:
+    label: "Compact (4px base)"
+    description: "Spacing apertado para interfaces data-dense. Ideal para dashboards, SaaS, tools."
+    base: 4
+    scale:
+      - { name: "2xs", value: "0.125rem", px: 2 }
+      - { name: "xs", value: "0.25rem", px: 4 }
+      - { name: "sm", value: "0.5rem", px: 8 }
+      - { name: "md", value: "0.75rem", px: 12 }
+      - { name: "lg", value: "1rem", px: 16 }
+      - { name: "xl", value: "1.5rem", px: 24 }
+      - { name: "2xl", value: "2rem", px: 32 }
+      - { name: "3xl", value: "2.5rem", px: 40 }
+      - { name: "4xl", value: "3rem", px: 48 }
+      - { name: "5xl", value: "4rem", px: 64 }
+    rules:
+      - "Base unit: 4px — espacamentos em multiplos de 4"
+      - "Ideal para interfaces com muita informacao"
+      - "Padding interno de cards: 12-16px"
+      - "Gap entre cards: 8-12px"
+      - "Section spacing: 32-48px"
+    archetypes: [especialista, sabio]
+    niches: [tech, financas, servicos]
+
+  standard:
+    label: "Standard (8px base)"
+    description: "Spacing equilibrado para a maioria das marcas. Bom respiro sem desperdicar espaco."
+    base: 8
+    scale:
+      - { name: "2xs", value: "0.25rem", px: 4 }
+      - { name: "xs", value: "0.5rem", px: 8 }
+      - { name: "sm", value: "0.75rem", px: 12 }
+      - { name: "md", value: "1rem", px: 16 }
+      - { name: "lg", value: "1.5rem", px: 24 }
+      - { name: "xl", value: "2rem", px: 32 }
+      - { name: "2xl", value: "2.5rem", px: 40 }
+      - { name: "3xl", value: "3rem", px: 48 }
+      - { name: "4xl", value: "4rem", px: 64 }
+      - { name: "5xl", value: "6rem", px: 96 }
+    rules:
+      - "Base unit: 8px — espacamentos em multiplos de 8"
+      - "Padding interno de cards: 16-24px"
+      - "Gap entre cards: 16-24px"
+      - "Section spacing: 48-64px"
+      - "Consistencia acima de tudo — nunca use valores fora da escala"
+    archetypes: [heroi, explorador, criador, cuidador, bobo]
+    niches: [educacao, saude, gastronomia, fitness, pet, varejo, criativo, outro]
+
+  spacious:
+    label: "Spacious (8px base, escala expandida)"
+    description: "Spacing generoso com muito respiro. Para marcas premium, editoriais e luxury."
+    base: 8
+    scale:
+      - { name: "2xs", value: "0.5rem", px: 8 }
+      - { name: "xs", value: "0.75rem", px: 12 }
+      - { name: "sm", value: "1rem", px: 16 }
+      - { name: "md", value: "1.5rem", px: 24 }
+      - { name: "lg", value: "2rem", px: 32 }
+      - { name: "xl", value: "3rem", px: 48 }
+      - { name: "2xl", value: "4rem", px: 64 }
+      - { name: "3xl", value: "5rem", px: 80 }
+      - { name: "4xl", value: "6rem", px: 96 }
+      - { name: "5xl", value: "8rem", px: 128 }
+    rules:
+      - "Base unit: 8px — mas escala comeca mais alta"
+      - "Espaco negativo e um elemento de design ativo"
+      - "Padding interno de cards: 24-48px"
+      - "Gap entre cards: 24-32px"
+      - "Section spacing: 80-128px"
+      - "Menos conteudo por viewport = mais impacto"
+    archetypes: [amante, governante, mago, inocente, rebelde]
+    niches: [moda, beleza, imobiliario]

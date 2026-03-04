@@ -1,0 +1,230 @@
+# ══════════════════════════════════════════════════════════
+#   Brand Factory — Color Psychology
+#   Paletas pre-curadas por emocao/nicho com hex reais
+# ══════════════════════════════════════════════════════════
+
+emotions:
+
+  trust:
+    label: "Confianca & Seguranca"
+    description: "Transmite estabilidade, profissionalismo e credibilidade"
+    palettes:
+      - name: "Corporate Trust"
+        primary: { hex: "#1E40AF", name: "Royal Blue" }
+        secondary: { hex: "#1E293B", name: "Slate 800" }
+        accent: { hex: "#3B82F6", name: "Blue 500" }
+        surface: { hex: "#F8FAFC", name: "Slate 50" }
+        text: { hex: "#0F172A", name: "Slate 900" }
+      - name: "Deep Ocean"
+        primary: { hex: "#0E7490", name: "Cyan 700" }
+        secondary: { hex: "#164E63", name: "Cyan 900" }
+        accent: { hex: "#22D3EE", name: "Cyan 400" }
+        surface: { hex: "#ECFEFF", name: "Cyan 50" }
+        text: { hex: "#083344", name: "Cyan 950" }
+      - name: "Navy Authority"
+        primary: { hex: "#1E3A5F", name: "Navy" }
+        secondary: { hex: "#B8860B", name: "Gold" }
+        accent: { hex: "#60A5FA", name: "Blue 400" }
+        surface: { hex: "#F1F5F9", name: "Slate 100" }
+        text: { hex: "#0F172A", name: "Slate 900" }
+
+  energy:
+    label: "Energia & Acao"
+    description: "Transmite dinamismo, urgencia e motivacao"
+    palettes:
+      - name: "Electric Red"
+        primary: { hex: "#DC2626", name: "Red 600" }
+        secondary: { hex: "#18181B", name: "Zinc 900" }
+        accent: { hex: "#FCA5A5", name: "Red 300" }
+        surface: { hex: "#0A0A0A", name: "Almost Black" }
+        text: { hex: "#FFFFFF", name: "White" }
+      - name: "Sunset Burst"
+        primary: { hex: "#EA580C", name: "Orange 600" }
+        secondary: { hex: "#DC2626", name: "Red 600" }
+        accent: { hex: "#FBBF24", name: "Amber 400" }
+        surface: { hex: "#FFFBEB", name: "Amber 50" }
+        text: { hex: "#1C1917", name: "Stone 900" }
+      - name: "Neon Pulse"
+        primary: { hex: "#E11D48", name: "Rose 600" }
+        secondary: { hex: "#7C3AED", name: "Violet 600" }
+        accent: { hex: "#06B6D4", name: "Cyan 500" }
+        surface: { hex: "#0F0F0F", name: "Dark" }
+        text: { hex: "#F4F4F5", name: "Zinc 100" }
+
+  growth:
+    label: "Crescimento & Natureza"
+    description: "Transmite vitalidade, saude e progresso"
+    palettes:
+      - name: "Forest Vitality"
+        primary: { hex: "#059669", name: "Emerald 600" }
+        secondary: { hex: "#064E3B", name: "Emerald 900" }
+        accent: { hex: "#34D399", name: "Emerald 400" }
+        surface: { hex: "#F0FDF4", name: "Green 50" }
+        text: { hex: "#022C22", name: "Emerald 950" }
+      - name: "Spring Fresh"
+        primary: { hex: "#16A34A", name: "Green 600" }
+        secondary: { hex: "#0284C7", name: "Sky 600" }
+        accent: { hex: "#FDE047", name: "Yellow 300" }
+        surface: { hex: "#FFFFFF", name: "White" }
+        text: { hex: "#1E293B", name: "Slate 800" }
+      - name: "Organic Earth"
+        primary: { hex: "#15803D", name: "Green 700" }
+        secondary: { hex: "#92400E", name: "Amber 800" }
+        accent: { hex: "#A3E635", name: "Lime 400" }
+        surface: { hex: "#FEFCE8", name: "Yellow 50" }
+        text: { hex: "#1A2E05", name: "Lime 950" }
+
+  luxury:
+    label: "Luxo & Premium"
+    description: "Transmite exclusividade, sofisticacao e refinamento"
+    palettes:
+      - name: "Black Gold"
+        primary: { hex: "#000000", name: "Black" }
+        secondary: { hex: "#B8860B", name: "Dark Goldenrod" }
+        accent: { hex: "#D4AF37", name: "Gold" }
+        surface: { hex: "#1A1A1A", name: "Near Black" }
+        text: { hex: "#F5F5F4", name: "Stone 100" }
+      - name: "Royal Burgundy"
+        primary: { hex: "#7F1D1D", name: "Red 900" }
+        secondary: { hex: "#451A03", name: "Amber 950" }
+        accent: { hex: "#D4AF37", name: "Gold" }
+        surface: { hex: "#FEF2F2", name: "Red 50" }
+        text: { hex: "#1C1917", name: "Stone 900" }
+      - name: "Midnight Premium"
+        primary: { hex: "#1E1B4B", name: "Indigo 950" }
+        secondary: { hex: "#C2410C", name: "Orange 700" }
+        accent: { hex: "#818CF8", name: "Indigo 400" }
+        surface: { hex: "#0F0B2E", name: "Deep Indigo" }
+        text: { hex: "#E0E7FF", name: "Indigo 100" }
+
+  calm:
+    label: "Calma & Serenidade"
+    description: "Transmite paz, equilibrio e tranquilidade"
+    palettes:
+      - name: "Soft Sky"
+        primary: { hex: "#0EA5E9", name: "Sky 500" }
+        secondary: { hex: "#E0F2FE", name: "Sky 100" }
+        accent: { hex: "#38BDF8", name: "Sky 400" }
+        surface: { hex: "#F0F9FF", name: "Sky 50" }
+        text: { hex: "#0C4A6E", name: "Sky 900" }
+      - name: "Lavender Dream"
+        primary: { hex: "#8B5CF6", name: "Violet 500" }
+        secondary: { hex: "#DDD6FE", name: "Violet 200" }
+        accent: { hex: "#A78BFA", name: "Violet 400" }
+        surface: { hex: "#FAF5FF", name: "Purple 50" }
+        text: { hex: "#4C1D95", name: "Violet 900" }
+      - name: "Sage Serenity"
+        primary: { hex: "#6B8F71", name: "Sage Green" }
+        secondary: { hex: "#D4E4D7", name: "Light Sage" }
+        accent: { hex: "#0D9488", name: "Teal 600" }
+        surface: { hex: "#F7FBF7", name: "Sage Light" }
+        text: { hex: "#2D3B2E", name: "Dark Sage" }
+
+  innovation:
+    label: "Inovacao & Tecnologia"
+    description: "Transmite modernidade, futuro e disrupcao"
+    palettes:
+      - name: "Tech Gradient"
+        primary: { hex: "#6366F1", name: "Indigo 500" }
+        secondary: { hex: "#06B6D4", name: "Cyan 500" }
+        accent: { hex: "#A855F7", name: "Purple 500" }
+        surface: { hex: "#0F172A", name: "Slate 900" }
+        text: { hex: "#F1F5F9", name: "Slate 100" }
+      - name: "Electric Future"
+        primary: { hex: "#8B5CF6", name: "Violet 500" }
+        secondary: { hex: "#14B8A6", name: "Teal 500" }
+        accent: { hex: "#F472B6", name: "Pink 400" }
+        surface: { hex: "#030712", name: "Gray 950" }
+        text: { hex: "#E5E7EB", name: "Gray 200" }
+      - name: "Clean Innovation"
+        primary: { hex: "#2563EB", name: "Blue 600" }
+        secondary: { hex: "#7C3AED", name: "Violet 600" }
+        accent: { hex: "#22D3EE", name: "Cyan 400" }
+        surface: { hex: "#FFFFFF", name: "White" }
+        text: { hex: "#111827", name: "Gray 900" }
+
+  warmth:
+    label: "Calor & Acolhimento"
+    description: "Transmite conforto, familiaridade e conexao humana"
+    palettes:
+      - name: "Terracotta Warm"
+        primary: { hex: "#C2410C", name: "Orange 700" }
+        secondary: { hex: "#78350F", name: "Amber 900" }
+        accent: { hex: "#FCD34D", name: "Amber 300" }
+        surface: { hex: "#FFFBEB", name: "Amber 50" }
+        text: { hex: "#451A03", name: "Amber 950" }
+      - name: "Honey Glow"
+        primary: { hex: "#D97706", name: "Amber 600" }
+        secondary: { hex: "#92400E", name: "Amber 800" }
+        accent: { hex: "#FDE68A", name: "Amber 200" }
+        surface: { hex: "#FFFBEB", name: "Amber 50" }
+        text: { hex: "#78350F", name: "Amber 900" }
+      - name: "Rose Comfort"
+        primary: { hex: "#BE185D", name: "Pink 700" }
+        secondary: { hex: "#831843", name: "Pink 900" }
+        accent: { hex: "#FBCFE8", name: "Pink 200" }
+        surface: { hex: "#FFF1F2", name: "Rose 50" }
+        text: { hex: "#4C0519", name: "Rose 950" }
+
+  authority:
+    label: "Autoridade & Poder"
+    description: "Transmite lideranca, competencia e dominio"
+    palettes:
+      - name: "Power Dark"
+        primary: { hex: "#000000", name: "Black" }
+        secondary: { hex: "#DC2626", name: "Red 600" }
+        accent: { hex: "#FFFFFF", name: "White" }
+        surface: { hex: "#0A0A0A", name: "Dark" }
+        text: { hex: "#FAFAFA", name: "Zinc 50" }
+      - name: "Executive Navy"
+        primary: { hex: "#172554", name: "Blue 950" }
+        secondary: { hex: "#1E3A5F", name: "Navy" }
+        accent: { hex: "#DBEAFE", name: "Blue 100" }
+        surface: { hex: "#F8FAFC", name: "Slate 50" }
+        text: { hex: "#0F172A", name: "Slate 900" }
+      - name: "Charcoal Command"
+        primary: { hex: "#27272A", name: "Zinc 800" }
+        secondary: { hex: "#52525B", name: "Zinc 600" }
+        accent: { hex: "#E4E4E7", name: "Zinc 200" }
+        surface: { hex: "#FAFAFA", name: "Zinc 50" }
+        text: { hex: "#18181B", name: "Zinc 900" }
+
+  playful:
+    label: "Diversao & Descontracao"
+    description: "Transmite alegria, leveza e espontaneidade"
+    palettes:
+      - name: "Candy Pop"
+        primary: { hex: "#EC4899", name: "Pink 500" }
+        secondary: { hex: "#8B5CF6", name: "Violet 500" }
+        accent: { hex: "#FBBF24", name: "Amber 400" }
+        surface: { hex: "#FFFFFF", name: "White" }
+        text: { hex: "#1F2937", name: "Gray 800" }
+      - name: "Tropical Burst"
+        primary: { hex: "#F97316", name: "Orange 500" }
+        secondary: { hex: "#06B6D4", name: "Cyan 500" }
+        accent: { hex: "#A3E635", name: "Lime 400" }
+        surface: { hex: "#FEFCE8", name: "Yellow 50" }
+        text: { hex: "#1C1917", name: "Stone 900" }
+      - name: "Electric Fun"
+        primary: { hex: "#2563EB", name: "Blue 600" }
+        secondary: { hex: "#F43F5E", name: "Rose 500" }
+        accent: { hex: "#FACC15", name: "Yellow 400" }
+        surface: { hex: "#F9FAFB", name: "Gray 50" }
+        text: { hex: "#111827", name: "Gray 900" }
+
+  knowledge:
+    label: "Conhecimento & Sabedoria"
+    description: "Transmite intelectualidade, profundidade e reflexao"
+    palettes:
+      - name: "Academic Navy"
+        primary: { hex: "#1E3A5F", name: "Navy" }
+        secondary: { hex: "#374151", name: "Gray 700" }
+        accent: { hex: "#93C5FD", name: "Blue 300" }
+        surface: { hex: "#F9FAFB", name: "Gray 50" }
+        text: { hex: "#111827", name: "Gray 900" }
+      - name: "Deep Scholar"
+        primary: { hex: "#312E81", name: "Indigo 900" }
+        secondary: { hex: "#1E1B4B", name: "Indigo 950" }
+        accent: { hex: "#C7D2FE", name: "Indigo 200" }
+        surface: { hex: "#EEF2FF", name: "Indigo 50" }
+        text: { hex: "#1E1B4B", name: "Indigo 950" }

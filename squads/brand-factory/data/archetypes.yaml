@@ -1,0 +1,234 @@
+# ══════════════════════════════════════════════════════════
+#   Brand Factory — 12 Arquetipos Junguianos
+#   Mapeamento completo: visual, tipografico, cores, motion, voz
+# ══════════════════════════════════════════════════════════
+
+archetypes:
+
+  - id: especialista
+    name: "O Especialista"
+    tagline: "Conhecimento que transforma"
+    core_desire: Expertise e reconhecimento profissional
+    fear: Ser visto como superficial ou amador
+    strategy: Demonstrar dominio e compartilhar conhecimento
+    brand_voice: Autoritativo, preciso, didatico
+    visual_tendency:
+      colors: [navy, slate, white, gold-accent]
+      mood: Profissional, confiavel, limpo
+      contrast: Alto
+    typography_tendency:
+      display: Geometric Sans (ex: Space Grotesk, Outfit)
+      body: Humanist Sans (ex: Inter, Source Sans 3)
+      feeling: Moderno, tecnico, legivel
+    motion_profile: precise
+    texture_style: clean
+    examples: ["IBM", "McKinsey", "Harvard Business Review"]
+
+  - id: rebelde
+    name: "O Rebelde"
+    tagline: "Quebre as regras. Crie as suas."
+    core_desire: Revolucao, liberdade, disrupcao
+    fear: Conformidade, ser ignorado
+    strategy: Chocar, desafiar convencoes, ser autenticamente diferente
+    brand_voice: Provocativo, direto, irreverente
+    visual_tendency:
+      colors: [black, red, electric-yellow, neon-accents]
+      mood: Bold, contrastante, dark
+      contrast: Extremo
+    typography_tendency:
+      display: Display/Condensed (ex: Bebas Neue, Oswald)
+      body: Grotesque (ex: Space Grotesk, DM Sans)
+      feeling: Impactante, uppercase, pesado
+    motion_profile: energetic
+    texture_style: textured
+    examples: ["Harley-Davidson", "Diesel", "Virgin"]
+
+  - id: cuidador
+    name: "O Cuidador"
+    tagline: "Cuidar e o que nos move"
+    core_desire: Proteger e ajudar os outros
+    fear: Egoismo, ingratidao
+    strategy: Servir, nutrir, criar seguranca
+    brand_voice: Empatico, caloroso, acolhedor
+    visual_tendency:
+      colors: [soft-blue, warm-green, cream, lavender]
+      mood: Suave, organico, acolhedor
+      contrast: Medio
+    typography_tendency:
+      display: Rounded Sans (ex: Nunito, Quicksand)
+      body: Humanist Sans (ex: Lato, Open Sans)
+      feeling: Amigavel, suave, organico
+    motion_profile: calm
+    texture_style: organic
+    examples: ["Johnson & Johnson", "UNICEF", "Dove"]
+
+  - id: criador
+    name: "O Criador"
+    tagline: "Imaginar. Criar. Inspirar."
+    core_desire: Criar algo de valor duradouro
+    fear: Mediocridade, visao vazia
+    strategy: Desenvolver habilidade artistica, expressar visao
+    brand_voice: Inspirador, imaginativo, visionario
+    visual_tendency:
+      colors: [vibrant-palette, unexpected-combos, creative-accents]
+      mood: Expressivo, colorido, unico
+      contrast: Variavel
+    typography_tendency:
+      display: Artistic/Variable (ex: Playfair Display, Fraunces)
+      body: Clean Sans (ex: Plus Jakarta Sans, DM Sans)
+      feeling: Expressivo, elegante, distinto
+    motion_profile: organic
+    texture_style: editorial
+    examples: ["Apple", "Adobe", "Lego", "Spotify"]
+
+  - id: explorador
+    name: "O Explorador"
+    tagline: "Descubra o extraordinario"
+    core_desire: Liberdade para descobrir, experimentar
+    fear: Ficar preso, conformismo
+    strategy: Buscar novos caminhos, aventurar-se
+    brand_voice: Aventureiro, inspirador, autenticamente curioso
+    visual_tendency:
+      colors: [earth-tones, forest-green, sky-blue, terracotta]
+      mood: Natural, expansivo, aventureiro
+      contrast: Medio-alto
+    typography_tendency:
+      display: Geometric Sans (ex: Outfit, Montserrat)
+      body: Humanist (ex: Source Sans 3, Noto Sans)
+      feeling: Limpo, moderno, acessivel
+    motion_profile: organic
+    texture_style: textured
+    examples: ["Jeep", "Patagonia", "National Geographic"]
+
+  - id: heroi
+    name: "O Heroi"
+    tagline: "Supere seus limites"
+    core_desire: Provar-se atraves de acao corajosa
+    fear: Fraqueza, vulnerabilidade
+    strategy: Ser forte, competente, poderoso
+    brand_voice: Motivacional, direto, energetico
+    visual_tendency:
+      colors: [bold-red, black, white, metallic-accents]
+      mood: Forte, dinamico, poderoso
+      contrast: Alto
+    typography_tendency:
+      display: Bold Condensed (ex: Oswald, Barlow Condensed)
+      body: Strong Sans (ex: Inter, Roboto)
+      feeling: Impactante, atletico, confiante
+    motion_profile: energetic
+    texture_style: clean
+    examples: ["Nike", "FedEx", "BMW"]
+
+  - id: mago
+    name: "O Mago"
+    tagline: "Transformacao acontece aqui"
+    core_desire: Compreender leis fundamentais e transformar realidade
+    fear: Consequencias negativas nao intencionais
+    strategy: Desenvolver visao e vive-la
+    brand_voice: Visionario, misterioso, transformador
+    visual_tendency:
+      colors: [deep-purple, dark-blue, gold, cosmic-gradients]
+      mood: Misterioso, premium, transformador
+      contrast: Medio-alto
+    typography_tendency:
+      display: Elegant Serif (ex: Playfair Display, DM Serif)
+      body: Clean Sans (ex: DM Sans, Inter)
+      feeling: Sofisticado, misterioso, premium
+    motion_profile: organic
+    texture_style: editorial
+    examples: ["Tesla", "Disney", "Dyson"]
+
+  - id: amante
+    name: "O Amante"
+    tagline: "Experiencias que encantam"
+    core_desire: Intimidade, experiencia sensorial, beleza
+    fear: Solidao, rejeicao, ser indesejado
+    strategy: Atrair, criar conexao emocional
+    brand_voice: Sensorial, elegante, sedutor
+    visual_tendency:
+      colors: [burgundy, gold, cream, rose, deep-warm]
+      mood: Luxuoso, sensorial, quente
+      contrast: Medio
+    typography_tendency:
+      display: Elegant Serif (ex: Cormorant Garamond, Playfair Display)
+      body: Light Sans (ex: Raleway, Jost)
+      feeling: Elegante, fluido, sofisticado
+    motion_profile: calm
+    texture_style: editorial
+    examples: ["Chanel", "Godiva", "Victoria's Secret"]
+
+  - id: bobo
+    name: "O Bobo"
+    tagline: "A vida e uma festa"
+    core_desire: Viver o momento com alegria
+    fear: Tedio, ser chato
+    strategy: Divertir, fazer as pessoas rirem, ser leve
+    brand_voice: Divertido, irreverente, espontaneo
+    visual_tendency:
+      colors: [bright-yellow, electric-blue, hot-pink, multi-color]
+      mood: Vibrante, divertido, energetico
+      contrast: Alto
+    typography_tendency:
+      display: Rounded/Playful (ex: Fredoka, Baloo 2)
+      body: Friendly Sans (ex: Nunito, Quicksand)
+      feeling: Divertido, amigavel, acessivel
+    motion_profile: energetic
+    texture_style: textured
+    examples: ["M&M's", "Old Spice", "Fanta"]
+
+  - id: inocente
+    name: "O Inocente"
+    tagline: "Simplicidade que inspira"
+    core_desire: Felicidade, harmonia, volta ao paraiso
+    fear: Fazer algo errado, ser punido
+    strategy: Fazer a coisa certa, ser otimista
+    brand_voice: Otimista, simples, honesto, puro
+    visual_tendency:
+      colors: [white, light-blue, soft-green, pastel-palette]
+      mood: Limpo, puro, luminoso
+      contrast: Baixo-medio
+    typography_tendency:
+      display: Clean Sans (ex: Poppins, Nunito Sans)
+      body: Rounded (ex: Nunito, Quicksand)
+      feeling: Limpo, amigavel, acessivel
+    motion_profile: calm
+    texture_style: clean
+    examples: ["Coca-Cola", "Dove", "Whole Foods"]
+
+  - id: sabio
+    name: "O Sabio"
+    tagline: "A verdade liberta"
+    core_desire: Encontrar a verdade, entender o mundo
+    fear: Ser enganado, ignorancia
+    strategy: Buscar informacao e conhecimento, auto-reflexao
+    brand_voice: Intelectual, reflexivo, analitico
+    visual_tendency:
+      colors: [deep-navy, charcoal, white, subtle-blue]
+      mood: Serio, intelectual, autoritativo
+      contrast: Medio-alto
+    typography_tendency:
+      display: Serif (ex: Merriweather, Libre Baskerville)
+      body: Readable Sans (ex: Source Sans 3, IBM Plex Sans)
+      feeling: Academico, confiavel, classico
+    motion_profile: minimal
+    texture_style: clean
+    examples: ["Google", "BBC", "The Economist"]
+
+  - id: governante
+    name: "O Governante"
+    tagline: "Lideranca com proposito"
+    core_desire: Controle, ordem, estabilidade
+    fear: Caos, ser destronado
+    strategy: Exercer lideranca, criar politicas e estrutura
+    brand_voice: Autoritativo, confiante, premium
+    visual_tendency:
+      colors: [navy, gold, black, burgundy, cream]
+      mood: Luxuoso, autoritativo, estruturado
+      contrast: Alto
+    typography_tendency:
+      display: Premium Serif (ex: Cormorant Garamond, DM Serif Display)
+      body: Elegant Sans (ex: Jost, Raleway)
+      feeling: Premium, poderoso, estruturado
+    motion_profile: precise
+    texture_style: clean
+    examples: ["Rolex", "Mercedes-Benz", "American Express"]

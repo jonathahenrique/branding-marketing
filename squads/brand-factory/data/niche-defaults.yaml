@@ -1,0 +1,299 @@
+# ══════════════════════════════════════════════════════════
+#   Brand Factory — Niche Defaults
+#   14 nichos com convencoes de mercado reais
+# ══════════════════════════════════════════════════════════
+
+niches:
+
+  educacao:
+    label: "Educacao"
+    typical_archetypes: [sabio, especialista, explorador]
+    color_tendencies: [trust, growth, knowledge]
+    typical_palette:
+      primary: "#2563EB"    # Blue — confianca, aprendizado
+      secondary: "#F97316"  # Orange — energia, entusiasmo
+      neutral: "#1E293B"    # Slate — seriedade
+    common_fonts:
+      display: ["Space Grotesk", "Outfit", "Montserrat"]
+      body: ["Inter", "Source Sans 3", "Noto Sans"]
+    photography_style: "Estudantes engajados, ambientes de aprendizado, tecnologia educacional"
+    motion_profile: precise
+    texture_style: clean
+    references: ["Coursera", "Khan Academy", "Duolingo"]
+    conventions:
+      - Credibilidade e autoridade sao essenciais
+      - Cores azuis dominam o segmento (trust)
+      - Acessibilidade e inclusao sao valores implicitos
+      - Linguagem clara, evitar jargao excessivo
+
+  saude:
+    label: "Saude & Bem-estar"
+    typical_archetypes: [cuidador, sabio, inocente]
+    color_tendencies: [trust, calm, growth]
+    typical_palette:
+      primary: "#0891B2"    # Teal — saude, equilibrio
+      secondary: "#10B981"  # Emerald — vitalidade
+      neutral: "#F8FAFC"    # Quase branco — limpeza
+    common_fonts:
+      display: ["Nunito", "Quicksand", "Poppins"]
+      body: ["Lato", "Open Sans", "Nunito Sans"]
+    photography_style: "Iluminacao suave, tons naturais, pessoas saudaveis e felizes, ambientes clinicos modernos"
+    motion_profile: calm
+    texture_style: organic
+    references: ["Headspace", "Calm", "One Medical"]
+    conventions:
+      - Confianca e empatia sao inegociaveis
+      - Tons de verde e azul dominam
+      - Linguagem acolhedora, nunca alarmista
+      - Acessibilidade e WCAG compliance essenciais
+
+  servicos:
+    label: "Servicos Profissionais"
+    typical_archetypes: [especialista, governante, heroi]
+    color_tendencies: [trust, authority, premium]
+    typical_palette:
+      primary: "#1E40AF"    # Deep blue — profissionalismo
+      secondary: "#D97706"  # Amber — destaque
+      neutral: "#111827"    # Quase preto — seriedade
+    common_fonts:
+      display: ["Inter", "Space Grotesk", "DM Sans"]
+      body: ["Inter", "Source Sans 3", "IBM Plex Sans"]
+    photography_style: "Profissionais em acao, escritorios modernos, handshakes, reunioes"
+    motion_profile: precise
+    texture_style: clean
+    references: ["Stripe", "Notion", "Linear"]
+    conventions:
+      - Clareza e objetividade na comunicacao
+      - Design system consistente e profissional
+      - Prova social (logos de clientes, numeros)
+      - Tom corporativo mas acessivel
+
+  tech:
+    label: "Tecnologia"
+    typical_archetypes: [criador, mago, explorador]
+    color_tendencies: [innovation, energy, trust]
+    typical_palette:
+      primary: "#6366F1"    # Indigo — inovacao
+      secondary: "#06B6D4"  # Cyan — tecnologia
+      neutral: "#0F172A"    # Dark slate — premium tech
+    common_fonts:
+      display: ["Space Grotesk", "Outfit", "Plus Jakarta Sans"]
+      body: ["Inter", "DM Sans", "Source Sans 3"]
+    photography_style: "Interfaces, devices, abstratos geometricos, gradientes"
+    motion_profile: precise
+    texture_style: clean
+    references: ["Vercel", "Linear", "Figma", "Spotify"]
+    conventions:
+      - Dark mode como default ou opcao
+      - Tipografia geometrica ou grotesca
+      - Motion sutil e funcional
+      - Documentacao como produto
+
+  gastronomia:
+    label: "Gastronomia & Food"
+    typical_archetypes: [criador, amante, cuidador]
+    color_tendencies: [warmth, appetite, organic]
+    typical_palette:
+      primary: "#DC2626"    # Red — apetite, paixao
+      secondary: "#CA8A04"  # Gold — premium, artesanal
+      neutral: "#292524"    # Stone dark — elegancia
+    common_fonts:
+      display: ["Playfair Display", "Fraunces", "DM Serif Display"]
+      body: ["Lato", "Nunito", "Source Sans 3"]
+    photography_style: "Food photography profissional, iluminacao quente, texturas, ingredientes frescos"
+    motion_profile: organic
+    texture_style: editorial
+    references: ["Noma", "Blue Bottle Coffee", "Sweetgreen"]
+    conventions:
+      - Fotografia e o principal asset visual
+      - Cores quentes estimulam apetite
+      - Serif em display transmite artesanalidade
+      - Texturas organicas e materiais naturais
+
+  fitness:
+    label: "Fitness & Esportes"
+    typical_archetypes: [heroi, rebelde, explorador]
+    color_tendencies: [energy, power, motivation]
+    typical_palette:
+      primary: "#EF4444"    # Red — energia, poder
+      secondary: "#000000"  # Preto — forca, contraste
+      neutral: "#18181B"    # Zinc dark
+    common_fonts:
+      display: ["Oswald", "Bebas Neue", "Barlow Condensed"]
+      body: ["Inter", "Roboto", "DM Sans"]
+    photography_style: "Action shots, alto contraste, suor, determinacao, corpo em movimento"
+    motion_profile: energetic
+    texture_style: textured
+    references: ["Nike", "Under Armour", "Peloton"]
+    conventions:
+      - Bold e impactante, sem sutileza
+      - Condensed fonts em uppercase para headlines
+      - Imagens de acao e performance
+      - Linguagem motivacional e direta
+
+  moda:
+    label: "Moda & Lifestyle"
+    typical_archetypes: [amante, criador, rebelde]
+    color_tendencies: [luxury, elegance, contrast]
+    typical_palette:
+      primary: "#000000"    # Preto — elegancia atemporal
+      secondary: "#B45309"  # Bronze — premium
+      neutral: "#FAFAF9"    # Stone light — minimalismo
+    common_fonts:
+      display: ["Cormorant Garamond", "Playfair Display", "Bodoni Moda"]
+      body: ["Jost", "Raleway", "DM Sans"]
+    photography_style: "Editorial, alto contraste, modelos, composicao cinematografica"
+    motion_profile: calm
+    texture_style: editorial
+    references: ["Zara", "COS", "Aesop"]
+    conventions:
+      - Minimalismo e espaco negativo
+      - Tipografia serif para premium
+      - Fotografia editorial como linguagem
+      - Menos e mais — reducao radical
+
+  imobiliario:
+    label: "Imobiliario"
+    typical_archetypes: [governante, especialista, cuidador]
+    color_tendencies: [trust, premium, stability]
+    typical_palette:
+      primary: "#1E3A5F"    # Navy — confianca
+      secondary: "#B8860B"  # Gold — premium
+      neutral: "#F5F5F4"    # Stone light
+    common_fonts:
+      display: ["DM Serif Display", "Playfair Display", "Merriweather"]
+      body: ["Inter", "Lato", "Source Sans 3"]
+    photography_style: "Arquitetura, interiores, aereas de propriedades, lifestyle aspiracional"
+    motion_profile: calm
+    texture_style: clean
+    references: ["Sotheby's Realty", "Compass", "Zillow"]
+    conventions:
+      - Premium e aspiracional
+      - Fotografia profissional obrigatoria
+      - Numeros e dados transmitem credibilidade
+      - Gold/navy como padrao do segmento
+
+  pet:
+    label: "Pet & Animais"
+    typical_archetypes: [cuidador, inocente, bobo]
+    color_tendencies: [warmth, playful, organic]
+    typical_palette:
+      primary: "#F59E0B"    # Amber — caloroso, amigavel
+      secondary: "#22C55E"  # Green — natural, saude
+      neutral: "#FEF3C7"    # Amber light — quente
+    common_fonts:
+      display: ["Fredoka", "Baloo 2", "Nunito"]
+      body: ["Nunito", "Quicksand", "Poppins"]
+    photography_style: "Pets felizes, interacao com donos, ambientes domesticos, close-ups fofos"
+    motion_profile: energetic
+    texture_style: organic
+    references: ["Chewy", "BarkBox", "Petlove"]
+    conventions:
+      - Divertido e amigavel
+      - Rounded fonts e formas
+      - Cores quentes e vibrantes
+      - Fotografia de pets como protagonista
+
+  beleza:
+    label: "Beleza & Cosmeticos"
+    typical_archetypes: [amante, criador, mago]
+    color_tendencies: [elegance, softness, luxury]
+    typical_palette:
+      primary: "#BE185D"    # Rose — feminino, premium
+      secondary: "#000000"  # Preto — sofisticacao
+      neutral: "#FFF1F2"    # Rose light — suavidade
+    common_fonts:
+      display: ["Cormorant Garamond", "Playfair Display", "Tenor Sans"]
+      body: ["Raleway", "Jost", "DM Sans"]
+    photography_style: "Close-ups de pele, texturas de produto, iluminacao suave e brilhante, tons rosados"
+    motion_profile: calm
+    texture_style: editorial
+    references: ["Glossier", "Aesop", "Fenty Beauty"]
+    conventions:
+      - Estetica limpa e minimalista
+      - Fotografia de produto e premium
+      - Serif para elegancia, sans para modernidade
+      - Inclusao e diversidade como valores
+
+  financas:
+    label: "Financas & Fintech"
+    typical_archetypes: [especialista, governante, sabio]
+    color_tendencies: [trust, stability, growth]
+    typical_palette:
+      primary: "#059669"    # Emerald — crescimento, dinheiro
+      secondary: "#1E40AF"  # Blue — confianca
+      neutral: "#111827"    # Gray dark — seriedade
+    common_fonts:
+      display: ["Inter", "Space Grotesk", "DM Sans"]
+      body: ["Inter", "IBM Plex Sans", "Source Sans 3"]
+    photography_style: "Graficos, dados visualizados, pessoas confiantes, ambientes corporativos modernos"
+    motion_profile: precise
+    texture_style: clean
+    references: ["Nubank", "Stripe", "Wise"]
+    conventions:
+      - Verde e azul dominam (confianca + crescimento)
+      - Sans-serif geometrica e padrao
+      - Dados e numeros sao protagonistas
+      - Seguranca visual transmitida pelo design
+
+  criativo:
+    label: "Agencia Criativa & Design"
+    typical_archetypes: [criador, rebelde, mago]
+    color_tendencies: [creative, bold, experimental]
+    typical_palette:
+      primary: "#7C3AED"    # Violet — criatividade
+      secondary: "#F43F5E"  # Rose — expressao
+      neutral: "#0A0A0A"    # Preto — canvas
+    common_fonts:
+      display: ["Space Grotesk", "Syne", "Clash Display"]
+      body: ["DM Sans", "Plus Jakarta Sans", "Inter"]
+    photography_style: "Abstrato, experimental, gradientes, colagens, arte generativa"
+    motion_profile: organic
+    texture_style: textured
+    references: ["Pentagram", "Studio Dumbar", "Instrument"]
+    conventions:
+      - Portfolio como principal vitrine
+      - Tipografia experimental e ousada
+      - Animacoes como diferencial
+      - O site e a propria demonstracao de skill
+
+  varejo:
+    label: "Varejo & E-commerce"
+    typical_archetypes: [heroi, bobo, inocente]
+    color_tendencies: [energy, trust, urgency]
+    typical_palette:
+      primary: "#EA580C"    # Orange — urgencia, energia
+      secondary: "#2563EB"  # Blue — confianca
+      neutral: "#FFFFFF"    # Branco — clareza
+    common_fonts:
+      display: ["Montserrat", "Poppins", "Outfit"]
+      body: ["Inter", "Open Sans", "Lato"]
+    photography_style: "Produto em fundo branco, lifestyle com produto, unboxing"
+    motion_profile: energetic
+    texture_style: clean
+    references: ["Amazon", "Shopee", "Magazine Luiza"]
+    conventions:
+      - Velocidade e clareza na navegacao
+      - CTAs agressivos e visiveis
+      - Preco e desconto como elementos visuais
+      - Trust badges e reviews
+
+  outro:
+    label: "Outro / Nicho Personalizado"
+    typical_archetypes: [criador, explorador, especialista]
+    color_tendencies: [innovation, trust]
+    typical_palette:
+      primary: "#3B82F6"    # Blue — universal
+      secondary: "#8B5CF6"  # Purple — diferenciacao
+      neutral: "#1F2937"    # Gray — neutro
+    common_fonts:
+      display: ["Space Grotesk", "Outfit", "Plus Jakarta Sans"]
+      body: ["Inter", "DM Sans", "Source Sans 3"]
+    photography_style: "Contextual — adaptar ao negocio especifico"
+    motion_profile: precise
+    texture_style: clean
+    references: []
+    conventions:
+      - Pesquisar concorrentes diretos
+      - Identificar convencoes do nicho especifico
+      - Adaptar arquetipos ao contexto

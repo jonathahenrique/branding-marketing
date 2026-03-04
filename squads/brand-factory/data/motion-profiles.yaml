@@ -1,0 +1,111 @@
+# ══════════════════════════════════════════════════════════
+#   Brand Factory — Motion Profiles
+#   5 profiles de animacao com tokens e micro-animations
+#   Valores CSS reais, nao placeholders
+# ══════════════════════════════════════════════════════════
+
+profiles:
+
+  calm:
+    label: "Calm"
+    description: "Movimentos suaves e lentos que transmitem tranquilidade e confianca. Ideal para marcas que priorizam serenidade e cuidado."
+    principle: "Breathe, Don't Rush"
+    archetypes: [cuidador, inocente, amante]
+    tokens:
+      - { name: "--duration-instant", value: "150ms", usage: "Micro-feedback (toggles, like)" }
+      - { name: "--duration-fast", value: "250ms", usage: "Hover states, tooltips" }
+      - { name: "--duration-normal", value: "400ms", usage: "Transicoes de conteudo" }
+      - { name: "--duration-slow", value: "600ms", usage: "Reveals, page transitions" }
+      - { name: "--ease-default", value: "cubic-bezier(0.25, 0.1, 0.25, 1.0)", usage: "Easing padrao" }
+      - { name: "--ease-out", value: "cubic-bezier(0.16, 1, 0.3, 1)", usage: "Saida suave" }
+    microAnimations:
+      - { element: "Button hover", behavior: "Subtle background fade + slight scale 1.02", duration: "250ms", easing: "ease-out" }
+      - { element: "Card entrance", behavior: "Fade in + translateY(8px) to 0", duration: "400ms", easing: "cubic-bezier(0.16, 1, 0.3, 1)" }
+      - { element: "Page transition", behavior: "Cross-fade with opacity", duration: "600ms", easing: "ease-in-out" }
+      - { element: "Icon hover", behavior: "Gentle color transition", duration: "250ms", easing: "ease-out" }
+      - { element: "Modal open", behavior: "Scale from 0.97 + fade in", duration: "400ms", easing: "cubic-bezier(0.16, 1, 0.3, 1)" }
+
+  precise:
+    label: "Precise"
+    description: "Movimentos exatos e eficientes que comunicam profissionalismo e competencia. Sem exagero, sem desperdicio."
+    principle: "Every Frame Has Purpose"
+    archetypes: [especialista, governante, sabio]
+    tokens:
+      - { name: "--duration-instant", value: "100ms", usage: "Micro-feedback imediato" }
+      - { name: "--duration-fast", value: "200ms", usage: "Hover, toggle states" }
+      - { name: "--duration-normal", value: "300ms", usage: "Menus, drawers" }
+      - { name: "--duration-slow", value: "450ms", usage: "Page transitions, modals" }
+      - { name: "--ease-default", value: "cubic-bezier(0.2, 0, 0.38, 0.9)", usage: "Easing padrao IBM-style" }
+      - { name: "--ease-out", value: "cubic-bezier(0, 0, 0.3, 1)", usage: "Saida precisa" }
+    microAnimations:
+      - { element: "Button hover", behavior: "Background color shift, no scale", duration: "200ms", easing: "cubic-bezier(0.2, 0, 0.38, 0.9)" }
+      - { element: "Dropdown open", behavior: "Height expand from 0 + fade", duration: "300ms", easing: "cubic-bezier(0, 0, 0.3, 1)" }
+      - { element: "Tab switch", behavior: "Underline slide + content cross-fade", duration: "200ms", easing: "cubic-bezier(0.2, 0, 0.38, 0.9)" }
+      - { element: "Toast appear", behavior: "Slide in from right + fade", duration: "300ms", easing: "cubic-bezier(0, 0, 0.3, 1)" }
+      - { element: "Data update", behavior: "Number counter animation", duration: "450ms", easing: "cubic-bezier(0.2, 0, 0.38, 0.9)" }
+
+  energetic:
+    label: "Energetic"
+    description: "Movimentos rapidos e dinamicos que transmitem energia e acao. Overshoots intencionais para criar vitalidade."
+    principle: "Move Fast, Hit Hard"
+    archetypes: [heroi, rebelde, bobo]
+    tokens:
+      - { name: "--duration-instant", value: "80ms", usage: "Micro-taps, feedback instantaneo" }
+      - { name: "--duration-fast", value: "150ms", usage: "Hovers agressivos" }
+      - { name: "--duration-normal", value: "250ms", usage: "Transicoes de UI" }
+      - { name: "--duration-slow", value: "400ms", usage: "Reveals impactantes" }
+      - { name: "--ease-default", value: "cubic-bezier(0.34, 1.56, 0.64, 1)", usage: "Easing com overshoot" }
+      - { name: "--ease-out", value: "cubic-bezier(0.22, 1, 0.36, 1)", usage: "Saida energetica" }
+    microAnimations:
+      - { element: "Button hover", behavior: "Scale 1.05 + shadow increase", duration: "150ms", easing: "cubic-bezier(0.34, 1.56, 0.64, 1)" }
+      - { element: "Card hover", behavior: "Lift translateY(-4px) + shadow expand", duration: "200ms", easing: "cubic-bezier(0.22, 1, 0.36, 1)" }
+      - { element: "CTA pulse", behavior: "Scale pulse 1.0 → 1.03 → 1.0 (loop)", duration: "2000ms", easing: "ease-in-out" }
+      - { element: "Icon click", behavior: "Bounce scale down 0.9 → up 1.1 → 1.0", duration: "250ms", easing: "cubic-bezier(0.34, 1.56, 0.64, 1)" }
+      - { element: "Page entrance", behavior: "Slide up from 20px + fade + slight overshoot", duration: "400ms", easing: "cubic-bezier(0.34, 1.56, 0.64, 1)" }
+
+  organic:
+    label: "Organic"
+    description: "Movimentos fluidos e naturais inspirados em movimento organico. Nada e rigido, tudo flui como na natureza."
+    principle: "Flow Like Water"
+    archetypes: [criador, explorador, mago]
+    tokens:
+      - { name: "--duration-instant", value: "100ms", usage: "Feedback tactil" }
+      - { name: "--duration-fast", value: "200ms", usage: "Hover, micro-interactions" }
+      - { name: "--duration-normal", value: "350ms", usage: "Expansoes, transicoes" }
+      - { name: "--duration-slow", value: "500ms", usage: "Reveals criativos" }
+      - { name: "--ease-default", value: "cubic-bezier(0.25, 0.1, 0.25, 1.0)", usage: "Easing fluido natural" }
+      - { name: "--ease-out", value: "cubic-bezier(0, 0, 0.2, 1)", usage: "Saida organica" }
+    microAnimations:
+      - { element: "Button hover", behavior: "Background gradient shift + scale 1.02", duration: "200ms", easing: "cubic-bezier(0.25, 0.1, 0.25, 1.0)" }
+      - { element: "Card hover", behavior: "Subtle tilt transform + shadow morph", duration: "300ms", easing: "cubic-bezier(0, 0, 0.2, 1)" }
+      - { element: "Scroll reveal", behavior: "Staggered fade-in (50ms delay between children)", duration: "350ms", easing: "cubic-bezier(0, 0, 0.2, 1)" }
+      - { element: "Navigation", behavior: "Smooth color transition on active state", duration: "200ms", easing: "ease-out" }
+      - { element: "Image load", behavior: "Blur(8px) to clear + scale 1.02 to 1.0", duration: "500ms", easing: "cubic-bezier(0.25, 0.1, 0.25, 1.0)" }
+
+  minimal:
+    label: "Minimal"
+    description: "Movimentos quase imperceptiveis. Menos e mais. Apenas o essencial se move, e quando se move, e rapido e preciso."
+    principle: "Less Is More"
+    archetypes: [sabio, governante]
+    tokens:
+      - { name: "--duration-instant", value: "80ms", usage: "Estado imediato" }
+      - { name: "--duration-fast", value: "150ms", usage: "Mudanca de estado" }
+      - { name: "--duration-normal", value: "200ms", usage: "Transicao de conteudo" }
+      - { name: "--duration-slow", value: "300ms", usage: "Transicao de pagina" }
+      - { name: "--ease-default", value: "cubic-bezier(0.4, 0, 0.2, 1)", usage: "Material Design standard" }
+      - { name: "--ease-out", value: "cubic-bezier(0, 0, 0.2, 1)", usage: "Saida minima" }
+    microAnimations:
+      - { element: "Button hover", behavior: "Color change only, no transform", duration: "150ms", easing: "cubic-bezier(0.4, 0, 0.2, 1)" }
+      - { element: "Link hover", behavior: "Underline slide from left", duration: "200ms", easing: "cubic-bezier(0, 0, 0.2, 1)" }
+      - { element: "Content swap", behavior: "Opacity 0 → 1 (fade only)", duration: "200ms", easing: "ease" }
+      - { element: "Focus ring", behavior: "Outline appear with opacity transition", duration: "150ms", easing: "ease-out" }
+      - { element: "Accordion", behavior: "Height transition, no fade", duration: "200ms", easing: "cubic-bezier(0.4, 0, 0.2, 1)" }
+
+# Regras universais (aplicadas a todos os profiles)
+universal_rules:
+  - "SEMPRE respeitar prefers-reduced-motion: reduce"
+  - "Target 60fps — nunca animar propriedades que causam layout (width, height, top, left)"
+  - "Preferir transform e opacity (GPU-accelerated)"
+  - "Duracao maxima absoluta: 800ms (exceto loops intencionais)"
+  - "Nenhuma animacao deve bloquear interacao do usuario"
+  - "Focus visible outline deve ter transicao de cor, nunca de tamanho"

@@ -1,0 +1,63 @@
+name: brand-factory
+version: 1.0.0
+description: "Squad AIOS para criacao automatizada de marcas com qualidade de agencia. Guia o usuario por 7 fases interativas (Discovery → Strategy → Voice → Visual → Logo → Mockups → Assembly) e gera um BrandConfig completo pronto para o Brand Engine."
+author: jonathahenrique
+license: MIT
+
+aios:
+  minVersion: "2.1.0"
+  type: squad
+
+components:
+  agents:
+    - agents/brand-strategist.md
+  tasks:
+    - tasks/bf-discover.md
+    - tasks/bf-strategy.md
+    - tasks/bf-voice.md
+    - tasks/bf-visual.md
+    - tasks/bf-logo.md
+    - tasks/bf-mockups.md
+    - tasks/bf-assemble.md
+    - tasks/bf-validate.md
+    - tasks/bf-create-brand.md
+  data:
+    - data/archetypes.yaml
+    - data/niche-defaults.yaml
+    - data/color-psychology.yaml
+    - data/typography-archetype-map.yaml
+    - data/motion-profiles.yaml
+    - data/voice-archetype-map.yaml
+    - data/spacing-presets.yaml
+    - data/photography-styles.yaml
+  checklists:
+    - checklists/brand-quality-gate.md
+    - checklists/brand-completeness.md
+  templates:
+    - templates/brand-config-template.ts.tmpl
+
+pipeline:
+  name: create-brand
+  phases:
+    - { id: discover, task: bf-discover.md, elicit: true }
+    - { id: strategy, task: bf-strategy.md, elicit: true }
+    - { id: voice, task: bf-voice.md, elicit: true }
+    - { id: visual, task: bf-visual.md, elicit: true }
+    - { id: logo, task: bf-logo.md, elicit: true }
+    - { id: mockups, task: bf-mockups.md, elicit: false }
+    - { id: assemble, task: bf-assemble.md, elicit: false }
+
+output:
+  brandConfig: "app/src/data/brands/{slug}.ts"
+  registry: "app/src/data/brands/index.ts"
+  artifacts: ".aios/brand-factory/{slug}/"
+
+dependencies: []
+
+keywords:
+  - aios
+  - squad
+  - branding
+  - brand-engine
+  - identity
+  - design-system

@@ -1,0 +1,165 @@
+# ══════════════════════════════════════════════════════════
+#   Brand Factory — Typography Archetype Map
+#   Combinacoes de fontes por arquetipo (Google Fonts / Fontshare)
+# ══════════════════════════════════════════════════════════
+
+# Todas as fontes sao gratuitas (Google Fonts ou Fontshare)
+# Cada arquetipo tem 2-3 combinacoes ranqueadas
+
+combinations:
+
+  especialista:
+    - rank: 1
+      display: { font: "Space Grotesk", source: "Google Fonts", license: "SIL Open Font", weights: "300, 400, 500, 600, 700", variable: true }
+      body: { font: "Inter", source: "Google Fonts", license: "SIL Open Font", weights: "400, 500, 600", variable: true }
+      mono: { font: "JetBrains Mono", source: "JetBrains", license: "SIL Open Font", weights: "400", variable: false }
+      justification: "Space Grotesk traz modernidade tecnica; Inter e a body font mais legivel do mercado"
+    - rank: 2
+      display: { font: "Outfit", source: "Google Fonts", license: "SIL Open Font", weights: "400, 500, 600, 700", variable: true }
+      body: { font: "Source Sans 3", source: "Google Fonts", license: "SIL Open Font", weights: "400, 500, 600", variable: true }
+      mono: { font: "Fira Code", source: "Google Fonts", license: "SIL Open Font", weights: "400", variable: false }
+      justification: "Outfit e geometrica e profissional; Source Sans 3 tem heranca Adobe e otima legibilidade"
+
+  rebelde:
+    - rank: 1
+      display: { font: "Bebas Neue", source: "Google Fonts", license: "SIL Open Font", weights: "400", variable: false }
+      body: { font: "Space Grotesk", source: "Google Fonts", license: "SIL Open Font", weights: "400, 500, 700", variable: true }
+      mono: { font: "JetBrains Mono", source: "JetBrains", license: "SIL Open Font", weights: "400", variable: false }
+      justification: "Bebas Neue em uppercase e iconica para marcas rebeldes; Space Grotesk mantem a edge"
+    - rank: 2
+      display: { font: "Oswald", source: "Google Fonts", license: "SIL Open Font", weights: "400, 500, 600, 700", variable: true }
+      body: { font: "DM Sans", source: "Google Fonts", license: "SIL Open Font", weights: "400, 500, 700", variable: true }
+      mono: { font: "Fira Code", source: "Google Fonts", license: "SIL Open Font", weights: "400", variable: false }
+      justification: "Oswald condensed para impacto; DM Sans como contraste mais suave"
+
+  cuidador:
+    - rank: 1
+      display: { font: "Nunito", source: "Google Fonts", license: "SIL Open Font", weights: "400, 600, 700, 800", variable: true }
+      body: { font: "Lato", source: "Google Fonts", license: "SIL Open Font", weights: "400, 700", variable: false }
+      mono: { font: "Fira Code", source: "Google Fonts", license: "SIL Open Font", weights: "400", variable: false }
+      justification: "Nunito rounded transmite calor e cuidado; Lato e humanista e acolhedora"
+    - rank: 2
+      display: { font: "Quicksand", source: "Google Fonts", license: "SIL Open Font", weights: "400, 500, 600, 700", variable: true }
+      body: { font: "Open Sans", source: "Google Fonts", license: "SIL Open Font", weights: "400, 600", variable: true }
+      mono: { font: "JetBrains Mono", source: "JetBrains", license: "SIL Open Font", weights: "400", variable: false }
+      justification: "Quicksand transmite suavidade; Open Sans e universalmente acessivel"
+
+  criador:
+    - rank: 1
+      display: { font: "Playfair Display", source: "Google Fonts", license: "SIL Open Font", weights: "400, 500, 600, 700, 800, 900", variable: true }
+      body: { font: "Plus Jakarta Sans", source: "Google Fonts", license: "SIL Open Font", weights: "400, 500, 600, 700", variable: true }
+      mono: { font: "JetBrains Mono", source: "JetBrains", license: "SIL Open Font", weights: "400", variable: false }
+      justification: "Playfair Display traz elegancia artistica; Plus Jakarta Sans e moderna e versatil"
+    - rank: 2
+      display: { font: "Fraunces", source: "Google Fonts", license: "SIL Open Font", weights: "400, 500, 600, 700, 800, 900", variable: true }
+      body: { font: "DM Sans", source: "Google Fonts", license: "SIL Open Font", weights: "400, 500, 700", variable: true }
+      mono: { font: "Fira Code", source: "Google Fonts", license: "SIL Open Font", weights: "400", variable: false }
+      justification: "Fraunces e expressiva com personalidade; DM Sans como contraste clean"
+
+  explorador:
+    - rank: 1
+      display: { font: "Outfit", source: "Google Fonts", license: "SIL Open Font", weights: "400, 500, 600, 700, 800", variable: true }
+      body: { font: "Source Sans 3", source: "Google Fonts", license: "SIL Open Font", weights: "400, 500, 600", variable: true }
+      mono: { font: "Fira Code", source: "Google Fonts", license: "SIL Open Font", weights: "400", variable: false }
+      justification: "Outfit e geometrica e aventureira; Source Sans 3 e legivel em qualquer contexto"
+    - rank: 2
+      display: { font: "Montserrat", source: "Google Fonts", license: "SIL Open Font", weights: "400, 500, 600, 700, 800", variable: true }
+      body: { font: "Noto Sans", source: "Google Fonts", license: "SIL Open Font", weights: "400, 500, 600", variable: true }
+      mono: { font: "JetBrains Mono", source: "JetBrains", license: "SIL Open Font", weights: "400", variable: false }
+      justification: "Montserrat e versatil e moderna; Noto Sans suporta praticamente todos os idiomas"
+
+  heroi:
+    - rank: 1
+      display: { font: "Oswald", source: "Google Fonts", license: "SIL Open Font", weights: "400, 500, 600, 700", variable: true }
+      body: { font: "Inter", source: "Google Fonts", license: "SIL Open Font", weights: "400, 500, 600, 700", variable: true }
+      mono: { font: "JetBrains Mono", source: "JetBrains", license: "SIL Open Font", weights: "400", variable: false }
+      justification: "Oswald condensed para forca e impacto; Inter equilibra com legibilidade perfeita"
+    - rank: 2
+      display: { font: "Barlow Condensed", source: "Google Fonts", license: "SIL Open Font", weights: "400, 500, 600, 700, 800", variable: false }
+      body: { font: "Roboto", source: "Google Fonts", license: "Apache 2.0", weights: "400, 500, 700", variable: true }
+      mono: { font: "Fira Code", source: "Google Fonts", license: "SIL Open Font", weights: "400", variable: false }
+      justification: "Barlow Condensed tem DNA esportivo; Roboto e industrial e forte"
+
+  mago:
+    - rank: 1
+      display: { font: "DM Serif Display", source: "Google Fonts", license: "SIL Open Font", weights: "400", variable: false }
+      body: { font: "DM Sans", source: "Google Fonts", license: "SIL Open Font", weights: "400, 500, 700", variable: true }
+      mono: { font: "JetBrains Mono", source: "JetBrains", license: "SIL Open Font", weights: "400", variable: false }
+      justification: "DM Serif Display traz misterio e sofisticacao; DM Sans como par perfeito"
+    - rank: 2
+      display: { font: "Playfair Display", source: "Google Fonts", license: "SIL Open Font", weights: "400, 700, 900", variable: true }
+      body: { font: "Inter", source: "Google Fonts", license: "SIL Open Font", weights: "400, 500", variable: true }
+      mono: { font: "Fira Code", source: "Google Fonts", license: "SIL Open Font", weights: "400", variable: false }
+      justification: "Playfair traz elegancia; Inter funciona como contraponto moderno"
+
+  amante:
+    - rank: 1
+      display: { font: "Cormorant Garamond", source: "Google Fonts", license: "SIL Open Font", weights: "300, 400, 500, 600, 700", variable: false }
+      body: { font: "Jost", source: "Google Fonts", license: "SIL Open Font", weights: "400, 500", variable: true }
+      mono: { font: "JetBrains Mono", source: "JetBrains", license: "SIL Open Font", weights: "400", variable: false }
+      justification: "Cormorant Garamond e sensorial e elegante; Jost traz leveza contemporanea"
+    - rank: 2
+      display: { font: "Playfair Display", source: "Google Fonts", license: "SIL Open Font", weights: "400, 500, 700", variable: true }
+      body: { font: "Raleway", source: "Google Fonts", license: "SIL Open Font", weights: "300, 400, 500, 600", variable: true }
+      mono: { font: "Fira Code", source: "Google Fonts", license: "SIL Open Font", weights: "400", variable: false }
+      justification: "Playfair para titulos romanticos; Raleway thin e elegante e fluida"
+
+  bobo:
+    - rank: 1
+      display: { font: "Fredoka", source: "Google Fonts", license: "SIL Open Font", weights: "400, 500, 600, 700", variable: true }
+      body: { font: "Nunito", source: "Google Fonts", license: "SIL Open Font", weights: "400, 600, 700", variable: true }
+      mono: { font: "Fira Code", source: "Google Fonts", license: "SIL Open Font", weights: "400", variable: false }
+      justification: "Fredoka e playful e amigavel; Nunito mantem a mesma energia arredondada"
+    - rank: 2
+      display: { font: "Baloo 2", source: "Google Fonts", license: "SIL Open Font", weights: "400, 500, 600, 700, 800", variable: true }
+      body: { font: "Quicksand", source: "Google Fonts", license: "SIL Open Font", weights: "400, 500, 600", variable: true }
+      mono: { font: "JetBrains Mono", source: "JetBrains", license: "SIL Open Font", weights: "400", variable: false }
+      justification: "Baloo 2 e divertida com personalidade; Quicksand como body rounded"
+
+  inocente:
+    - rank: 1
+      display: { font: "Poppins", source: "Google Fonts", license: "SIL Open Font", weights: "400, 500, 600, 700", variable: false }
+      body: { font: "Nunito Sans", source: "Google Fonts", license: "SIL Open Font", weights: "400, 600", variable: true }
+      mono: { font: "JetBrains Mono", source: "JetBrains", license: "SIL Open Font", weights: "400", variable: false }
+      justification: "Poppins e geometrica e otimista; Nunito Sans e limpa e acessivel"
+    - rank: 2
+      display: { font: "Nunito", source: "Google Fonts", license: "SIL Open Font", weights: "400, 600, 700, 800", variable: true }
+      body: { font: "Quicksand", source: "Google Fonts", license: "SIL Open Font", weights: "400, 500, 600", variable: true }
+      mono: { font: "Fira Code", source: "Google Fonts", license: "SIL Open Font", weights: "400", variable: false }
+      justification: "Nunito rounded para pureza; Quicksand como par suave"
+
+  sabio:
+    - rank: 1
+      display: { font: "Merriweather", source: "Google Fonts", license: "SIL Open Font", weights: "400, 700, 900", variable: false }
+      body: { font: "Source Sans 3", source: "Google Fonts", license: "SIL Open Font", weights: "400, 600", variable: true }
+      mono: { font: "Fira Code", source: "Google Fonts", license: "SIL Open Font", weights: "400", variable: false }
+      justification: "Merriweather e academica e autoritative; Source Sans 3 e clara e profissional"
+    - rank: 2
+      display: { font: "Libre Baskerville", source: "Google Fonts", license: "SIL Open Font", weights: "400, 700", variable: false }
+      body: { font: "IBM Plex Sans", source: "Google Fonts", license: "SIL Open Font", weights: "400, 500, 600", variable: false }
+      mono: { font: "IBM Plex Mono", source: "Google Fonts", license: "SIL Open Font", weights: "400", variable: false }
+      justification: "Libre Baskerville classica; IBM Plex Sans traz credibilidade institucional"
+
+  governante:
+    - rank: 1
+      display: { font: "Cormorant Garamond", source: "Google Fonts", license: "SIL Open Font", weights: "400, 500, 600, 700", variable: false }
+      body: { font: "Jost", source: "Google Fonts", license: "SIL Open Font", weights: "400, 500", variable: true }
+      mono: { font: "JetBrains Mono", source: "JetBrains", license: "SIL Open Font", weights: "400", variable: false }
+      justification: "Cormorant Garamond e premium e autoritativa; Jost traz modernidade elegante"
+    - rank: 2
+      display: { font: "DM Serif Display", source: "Google Fonts", license: "SIL Open Font", weights: "400", variable: false }
+      body: { font: "Raleway", source: "Google Fonts", license: "SIL Open Font", weights: "400, 500, 600", variable: true }
+      mono: { font: "Fira Code", source: "Google Fonts", license: "SIL Open Font", weights: "400", variable: false }
+      justification: "DM Serif Display para autoridade; Raleway thin e sofisticada"
+
+# Type scale padrao (pode ser ajustado por marca)
+default_scale:
+  - { name: "Hero", desktop: "72px", mobile: "36px", lineHeight: "0.95", font: "heading", weight: "800", letterSpacing: "-0.03em", usage: "Landing hero, campanha" }
+  - { name: "H1", desktop: "48px", mobile: "32px", lineHeight: "1.1", font: "heading", weight: "700", letterSpacing: "-0.02em", usage: "Titulos de pagina" }
+  - { name: "H2", desktop: "36px", mobile: "24px", lineHeight: "1.2", font: "heading", weight: "700", letterSpacing: "-0.01em", usage: "Secoes principais" }
+  - { name: "H3", desktop: "24px", mobile: "20px", lineHeight: "1.3", font: "heading", weight: "600", usage: "Subsecoes, cards" }
+  - { name: "H4", desktop: "18px", mobile: "16px", lineHeight: "1.4", font: "heading", weight: "600", usage: "Headers menores" }
+  - { name: "Body", desktop: "16px", mobile: "16px", lineHeight: "1.6", font: "body", weight: "400", usage: "Texto corrido" }
+  - { name: "Small", desktop: "14px", mobile: "14px", lineHeight: "1.5", font: "body", weight: "400", usage: "Metadados, captions" }
+  - { name: "Micro", desktop: "11px", mobile: "11px", lineHeight: "1.4", font: "body", weight: "500", letterSpacing: "0.08em", usage: "Labels, overlines" }
+  - { name: "Code", desktop: "14px", mobile: "14px", lineHeight: "1.5", font: "mono", weight: "400", usage: "Codigo, dados tecnicos" }

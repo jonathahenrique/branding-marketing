@@ -1,0 +1,245 @@
+// ══════════════════════════════════════════════════════════
+//   Brand Config Template — Brand Factory
+//   Gerado pelo squad brand-factory via @brand-strategist
+//   Substitua {{placeholders}} pelos valores reais
+// ══════════════════════════════════════════════════════════
+
+import type { BrandConfig } from '@/types/brand'
+
+export const {{camelCaseSlug}}: BrandConfig = {
+  slug: '{{slug}}',
+  name: '{{name}}',
+  tagline: '{{tagline}}',
+  purpose: '{{purpose}}',
+  niche: '{{niche}}',
+  description: '{{description}}',
+
+  audience: {
+    primary: '{{audience.primary}}',
+    pain: '{{audience.pain}}',
+    desire: '{{audience.desire}}',
+  },
+
+  positioning: {
+    category: '{{positioning.category}}',
+    differentiator: '{{positioning.differentiator}}',
+    promise: '{{positioning.promise}}',
+  },
+
+  personality: {
+    archetype: '{{personality.archetype}}',
+    traits: [
+      { trait: '{{trait1.name}}', desc: '{{trait1.desc}}' },
+      { trait: '{{trait2.name}}', desc: '{{trait2.desc}}' },
+      { trait: '{{trait3.name}}', desc: '{{trait3.desc}}' },
+      { trait: '{{trait4.name}}', desc: '{{trait4.desc}}' },
+      { trait: '{{trait5.name}}', desc: '{{trait5.desc}}' },
+    ],
+    isNot: [
+      '{{isNot1}}',
+      '{{isNot2}}',
+      '{{isNot3}}',
+      '{{isNot4}}',
+    ],
+  },
+
+  values: [
+    { title: '{{value1.title}}', description: '{{value1.description}}' },
+    { title: '{{value2.title}}', description: '{{value2.description}}' },
+    { title: '{{value3.title}}', description: '{{value3.description}}' },
+    { title: '{{value4.title}}', description: '{{value4.description}}' },
+  ],
+
+  voice: {
+    archetype: '{{voice.archetype}}',
+    tone: '{{voice.tone}}',
+    personality: {
+      is: [
+        { trait: '{{voiceTrait1.name}}', desc: '{{voiceTrait1.desc}}' },
+        { trait: '{{voiceTrait2.name}}', desc: '{{voiceTrait2.desc}}' },
+        { trait: '{{voiceTrait3.name}}', desc: '{{voiceTrait3.desc}}' },
+        { trait: '{{voiceTrait4.name}}', desc: '{{voiceTrait4.desc}}' },
+      ],
+      isNot: [
+        '{{voiceIsNot1}}',
+        '{{voiceIsNot2}}',
+        '{{voiceIsNot3}}',
+      ],
+    },
+    rules: [
+      { rule: '{{rule1.rule}}', example: '{{rule1.example}}', bad: '{{rule1.bad}}' },
+      { rule: '{{rule2.rule}}', example: '{{rule2.example}}', bad: '{{rule2.bad}}' },
+      { rule: '{{rule3.rule}}', example: '{{rule3.example}}' },
+      { rule: '{{rule4.rule}}', example: '{{rule4.example}}', bad: '{{rule4.bad}}' },
+      { rule: '{{rule5.rule}}', example: '{{rule5.example}}' },
+    ],
+    references: ['{{ref1}}', '{{ref2}}', '{{ref3}}'],
+  },
+
+  shape: {
+    radiusSm: '{{shape.radiusSm}}',
+    radiusMd: '{{shape.radiusMd}}',
+    radiusLg: '{{shape.radiusLg}}',
+    shadowElevated: '{{shape.shadowElevated}}',
+    shadowModal: '{{shape.shadowModal}}',
+    borderWidth: '{{shape.borderWidth}}',
+  },
+
+  theme: {
+    bg: '{{theme.bg}}',
+    surface: '{{theme.surface}}',
+    surfaceHover: '{{theme.surfaceHover}}',
+    primary: '{{theme.primary}}',
+    primaryHover: '{{theme.primaryHover}}',
+    primaryDeep: '{{theme.primaryDeep}}',
+    primaryMuted: '{{theme.primaryMuted}}',
+    secondary: '{{theme.secondary}}',
+    secondaryHover: '{{theme.secondaryHover}}',
+    secondaryDeep: '{{theme.secondaryDeep}}',
+    secondaryMuted: '{{theme.secondaryMuted}}',
+    text: '{{theme.text}}',
+    textSecondary: '{{theme.textSecondary}}',
+    textTertiary: '{{theme.textTertiary}}',
+    border: '{{theme.border}}',
+    borderSubtle: '{{theme.borderSubtle}}',
+  },
+
+  colors: {
+    philosophy: '{{colors.philosophy}}',
+    dark: [
+      // {{Adicionar 10-12 ColorTokens}}
+      // { token: 'base', name: 'Base', hex: '#...', oklch: 'oklch(...)', usage: '...' },
+    ],
+    light: [
+      // {{Adicionar 6-7 ColorTokens}}
+      // { token: 'base', name: 'White', hex: '#FFFFFF', usage: '...' },
+    ],
+    primaryUsage: {
+      do: [
+        // {{4-6 regras de uso correto da cor primaria}}
+      ],
+      dont: [
+        // {{4-6 regras de uso incorreto}}
+      ],
+    },
+    secondaryUsage: {
+      do: [
+        // {{3-5 regras de uso correto}}
+      ],
+      dont: [
+        // {{3-5 regras de uso incorreto}}
+      ],
+    },
+  },
+
+  typography: {
+    stack: [
+      { role: 'display', font: '{{display.font}}', source: '{{display.source}}', license: '{{display.license}}', weights: '{{display.weights}}', variable: {{display.variable}} },
+      { role: 'body', font: '{{body.font}}', source: '{{body.source}}', license: '{{body.license}}', weights: '{{body.weights}}', variable: {{body.variable}} },
+      { role: 'mono', font: '{{mono.font}}', source: '{{mono.source}}', license: '{{mono.license}}', weights: '{{mono.weights}}', variable: {{mono.variable}} },
+    ],
+    scale: [
+      { name: 'Hero', desktop: '{{hero.desktop}}', mobile: '{{hero.mobile}}', lineHeight: '{{hero.lineHeight}}', font: 'heading', weight: '{{hero.weight}}', letterSpacing: '{{hero.letterSpacing}}', usage: '{{hero.usage}}' },
+      { name: 'H1', desktop: '{{h1.desktop}}', mobile: '{{h1.mobile}}', lineHeight: '{{h1.lineHeight}}', font: 'heading', weight: '{{h1.weight}}', letterSpacing: '{{h1.letterSpacing}}', usage: '{{h1.usage}}' },
+      { name: 'H2', desktop: '{{h2.desktop}}', mobile: '{{h2.mobile}}', lineHeight: '{{h2.lineHeight}}', font: 'heading', weight: '{{h2.weight}}', letterSpacing: '{{h2.letterSpacing}}', usage: '{{h2.usage}}' },
+      { name: 'H3', desktop: '{{h3.desktop}}', mobile: '{{h3.mobile}}', lineHeight: '{{h3.lineHeight}}', font: 'heading', weight: '{{h3.weight}}', usage: '{{h3.usage}}' },
+      { name: 'H4', desktop: '{{h4.desktop}}', mobile: '{{h4.mobile}}', lineHeight: '{{h4.lineHeight}}', font: 'heading', weight: '{{h4.weight}}', usage: '{{h4.usage}}' },
+      { name: 'Body', desktop: '16px', mobile: '16px', lineHeight: '1.6', font: 'body', weight: '400', usage: '{{body.usage}}' },
+      { name: 'Small', desktop: '14px', mobile: '14px', lineHeight: '1.5', font: 'body', weight: '400', usage: '{{small.usage}}' },
+      { name: 'Micro', desktop: '11px', mobile: '11px', lineHeight: '1.4', font: 'body', weight: '500', letterSpacing: '0.08em', usage: '{{micro.usage}}' },
+      { name: 'Code', desktop: '14px', mobile: '14px', lineHeight: '1.5', font: 'mono', weight: '400', usage: '{{code.usage}}' },
+    ],
+    rules: [
+      // {{4+ regras tipograficas}}
+    ],
+  },
+
+  spacing: {
+    base: {{spacing.base}},
+    scale: [
+      // {{10 SpacingTokens do preset escolhido}}
+    ],
+    rules: [
+      // {{3+ regras de spacing}}
+    ],
+  },
+
+  motion: {
+    principle: '{{motion.principle}}',
+    description: '{{motion.description}}',
+    profile: '{{motion.profile}}',
+    tokens: [
+      // {{6 MotionTokens do profile escolhido}}
+    ],
+    microAnimations: [
+      // {{5 MicroAnimations do profile escolhido}}
+    ],
+    rules: [
+      // {{3+ regras de motion}}
+    ],
+  },
+
+  textures: {
+    style: '{{textures.style}}',
+    grain: {{textures.grain}},
+    grainOpacity: {{textures.grainOpacity}},
+    overlays: [{{textures.overlays}}],
+  },
+
+  logo: {
+    concept: '{{logo.concept}}',
+    description: '{{logo.description}}',
+    variants: [
+      // {{3-4 LogoVariants — sem file, usuario adiciona depois}}
+      // { name: '...', description: '...' },
+    ],
+    rules: [
+      // {{5+ regras do logo}}
+    ],
+    misuse: [
+      // {{4+ items de misuse}}
+    ],
+  },
+
+  photography: {
+    style: '{{photography.style}}',
+    lighting: '{{photography.lighting}}',
+    composition: '{{photography.composition}}',
+    colorTreatment: '{{photography.colorTreatment}}',
+    subjects: [{{photography.subjects}}],
+    avoid: [{{photography.avoid}}],
+  },
+
+  iconography: {
+    style: '{{iconography.style}}',
+    grid: '{{iconography.grid}}',
+    strokeWidth: '{{iconography.strokeWidth}}',
+  },
+
+  mockups: {
+    instagramPosts: [
+      // {{4 MockupPosts}}
+    ],
+    youtubeThumbnails: [
+      // {{2-3 MockupThumbs}}
+    ],
+    newsletter: {
+      subject: '{{newsletter.subject}}',
+      headline: '{{newsletter.headline}}',
+      body: [
+        // {{2-3 paragrafos}}
+      ],
+      ctaText: '{{newsletter.ctaText}}',
+    },
+    landingHero: {
+      headline: '{{landingHero.headline}}',
+      subheadline: '{{landingHero.subheadline}}',
+      ctaText: '{{landingHero.ctaText}}',
+      ctaSecondary: '{{landingHero.ctaSecondary}}',
+    },
+  },
+
+  createdAt: '{{createdAt}}',
+  updatedAt: '{{updatedAt}}',
+  completeness: {{completeness}},
+}
