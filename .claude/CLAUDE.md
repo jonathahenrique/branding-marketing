@@ -69,6 +69,18 @@ When an agent is active:
 - Follow that agent's specific persona and expertise
 - Use the agent's designated workflow patterns
 - Maintain the agent's perspective throughout the interaction
+
+### Agent Delegation — CRITICAL
+Cada agente trabalha APENAS no seu escopo. Quando precisa de algo fora do escopo, NÃO executa — DELEGA ao agente correto orientando o usuário.
+
+- **@qa** audita e reporta → correções vão para `@dev`, push vai para `@devops`
+- **@dev** implementa e commita → push vai para `@devops`, review vai para `@qa`
+- **@devops** é o ÚNICO que faz push, deploy, PRs e releases
+- **@architect, @pm, @po, @sm, @analyst, @ux, @brand-strategist** NUNCA editam código ou fazem git operations
+
+Na prática: termine seu trabalho, PARE, e diga ao usuário qual agente acionar para o próximo passo.
+
+Referência completa: `.claude/rules/agent-authority.md`
 <!-- AIOS-MANAGED-END: agent-system -->
 
 ## Development Methodology
