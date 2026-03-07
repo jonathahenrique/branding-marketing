@@ -1,0 +1,129 @@
+/* ============================================
+   NBR 5419:2026 — Design Tokens (CSS Variables)
+   Brand: Como Aplicar a NBR 5419:2026
+   Gerado em: 2026-03-07
+   ============================================ */
+
+:root {
+  /* ── Colors: Dark Theme (Primary) ── */
+  --nbr-bg-deep: #030912;
+  --nbr-bg-surface: #0A1628;
+  --nbr-bg-elevated: #112240;
+
+  --nbr-amber-primary: #F0C142;
+  --nbr-amber-hover: #DDA832;
+  --nbr-amber-deep: #C8910E;
+  --nbr-amber-muted: rgba(240, 193, 66, 0.12);
+
+  --nbr-navy-primary: #0A1628;
+  --nbr-navy-hover: #112240;
+  --nbr-navy-deep: #060D1A;
+  --nbr-navy-muted: rgba(10, 22, 40, 0.12);
+
+  --nbr-text-primary: #F5F5F5;
+  --nbr-text-secondary: #8B9BB5;
+  --nbr-text-tertiary: #5A6A82;
+
+  --nbr-border: rgba(10, 22, 40, 0.22);
+  --nbr-border-subtle: rgba(10, 22, 40, 0.10);
+
+  /* ── Colors: Light Sections ── */
+  --nbr-bg-light: #F8F9FC;
+  --nbr-surface-light: #EEF1F6;
+  --nbr-amber-light: #C8910E;
+  --nbr-navy-light: #0A1628;
+  --nbr-text-light: #0A1628;
+  --nbr-text-secondary-light: #1A2D4A;
+  --nbr-border-light: rgba(10, 22, 40, 0.12);
+
+  /* ── Typography ── */
+  --nbr-font-display: 'Outfit', system-ui, sans-serif;
+  --nbr-font-body: 'Source Sans 3', system-ui, sans-serif;
+  --nbr-font-mono: 'Fira Code', monospace;
+
+  /* Scale — Desktop */
+  --nbr-text-hero: 72px;
+  --nbr-text-h1: 48px;
+  --nbr-text-h2: 36px;
+  --nbr-text-h3: 24px;
+  --nbr-text-h4: 18px;
+  --nbr-text-body: 16px;
+  --nbr-text-small: 14px;
+  --nbr-text-micro: 11px;
+  --nbr-text-code: 14px;
+
+  /* Scale — Mobile (use inside media query) */
+  --nbr-text-hero-mobile: 40px;
+  --nbr-text-h1-mobile: 32px;
+  --nbr-text-h2-mobile: 26px;
+  --nbr-text-h3-mobile: 20px;
+  --nbr-text-h4-mobile: 16px;
+
+  /* Line Heights */
+  --nbr-leading-hero: 0.95;
+  --nbr-leading-h1: 1.1;
+  --nbr-leading-h2: 1.2;
+  --nbr-leading-h3: 1.3;
+  --nbr-leading-h4: 1.4;
+  --nbr-leading-body: 1.6;
+  --nbr-leading-small: 1.5;
+
+  /* Letter Spacing */
+  --nbr-tracking-hero: -0.03em;
+  --nbr-tracking-h1: -0.02em;
+  --nbr-tracking-h2: -0.01em;
+  --nbr-tracking-micro: 0.08em;
+
+  /* ── Spacing (base 4px) ── */
+  --nbr-space-2xs: 4px;
+  --nbr-space-xs: 8px;
+  --nbr-space-sm: 12px;
+  --nbr-space-md: 16px;
+  --nbr-space-lg: 24px;
+  --nbr-space-xl: 32px;
+  --nbr-space-2xl: 48px;
+  --nbr-space-3xl: 64px;
+  --nbr-space-4xl: 96px;
+  --nbr-space-5xl: 128px;
+
+  /* ── Shape ── */
+  --nbr-radius-sm: 6px;
+  --nbr-radius-md: 10px;
+  --nbr-radius-lg: 16px;
+  --nbr-shadow-elevated: 0 4px 24px rgba(10, 22, 40, 0.18);
+  --nbr-shadow-modal: 0 16px 64px rgba(3, 9, 18, 0.8);
+  --nbr-border-width: 1px;
+
+  /* ── Motion ── */
+  --nbr-duration-instant: 80ms;
+  --nbr-duration-fast: 150ms;
+  --nbr-duration-normal: 250ms;
+  --nbr-duration-slow: 400ms;
+  --nbr-ease-default: cubic-bezier(0.4, 0, 0.2, 1);
+  --nbr-ease-out: cubic-bezier(0, 0, 0.2, 1);
+
+  /* ── Overlays ── */
+  --nbr-overlay-card: linear-gradient(135deg, rgba(240, 193, 66, 0.04) 0%, rgba(10, 22, 40, 0.08) 100%);
+  --nbr-overlay-photo: rgba(3, 9, 18, 0.4);
+}
+
+/* ── Responsive Typography ── */
+@media (max-width: 768px) {
+  :root {
+    --nbr-text-hero: var(--nbr-text-hero-mobile);
+    --nbr-text-h1: var(--nbr-text-h1-mobile);
+    --nbr-text-h2: var(--nbr-text-h2-mobile);
+    --nbr-text-h3: var(--nbr-text-h3-mobile);
+    --nbr-text-h4: var(--nbr-text-h4-mobile);
+  }
+}
+
+/* ── Reduced Motion ── */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --nbr-duration-instant: 0ms;
+    --nbr-duration-fast: 0ms;
+    --nbr-duration-normal: 0ms;
+    --nbr-duration-slow: 0ms;
+  }
+}

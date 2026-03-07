@@ -1,0 +1,109 @@
+{
+  "$schema": "https://design-tokens.org/schema.json",
+  "brand": "Como Aplicar a NBR 5419:2026",
+  "slug": "nova-nbr5419",
+  "generatedAt": "2026-03-07",
+
+  "colors": {
+    "dark": {
+      "bg-deep": { "value": "#030912", "usage": "Background principal" },
+      "bg-surface": { "value": "#0A1628", "usage": "Cards, superfícies" },
+      "bg-elevated": { "value": "#112240", "usage": "Hover de card, dropdowns" },
+      "amber-primary": { "value": "#F0C142", "usage": "CTA, highlights, headings em destaque" },
+      "amber-hover": { "value": "#DDA832", "usage": "Hover do amber" },
+      "amber-deep": { "value": "#C8910E", "usage": "Pressed state" },
+      "amber-muted": { "value": "rgba(240,193,66,0.12)", "usage": "Background sutil amber" },
+      "navy-primary": { "value": "#0A1628", "usage": "Secondary actions, tags" },
+      "navy-hover": { "value": "#112240", "usage": "Hover do navy" },
+      "navy-deep": { "value": "#060D1A", "usage": "Pressed state, sombras" },
+      "text-primary": { "value": "#F5F5F5", "usage": "Texto principal" },
+      "text-secondary": { "value": "#8B9BB5", "usage": "Texto secundário, metadados" },
+      "text-tertiary": { "value": "#5A6A82", "usage": "Placeholders, desabilitado" },
+      "border": { "value": "rgba(10,22,40,0.22)", "usage": "Bordas padrão" },
+      "border-subtle": { "value": "rgba(10,22,40,0.10)", "usage": "Bordas sutis" }
+    },
+    "light": {
+      "bg-light": { "value": "#F8F9FC", "usage": "Background seções claras" },
+      "surface-light": { "value": "#EEF1F6", "usage": "Cards em seções claras" },
+      "amber-contrast": { "value": "#C8910E", "usage": "Primary em contexto claro" },
+      "navy-text": { "value": "#0A1628", "usage": "Texto em fundo claro" },
+      "text-secondary-light": { "value": "#1A2D4A", "usage": "Texto secundário claro" },
+      "border-light": { "value": "rgba(10,22,40,0.12)", "usage": "Bordas em fundo claro" }
+    },
+    "philosophy": "Âmbar como o flash do raio — luminoso, fugaz, poderoso. Navy como a autoridade técnica — profundo, sólido, confiável."
+  },
+
+  "typography": {
+    "fonts": {
+      "display": { "family": "Outfit", "source": "Google Fonts", "weights": "400,500,600,700,800", "variable": true },
+      "body": { "family": "Source Sans 3", "source": "Google Fonts", "weights": "400,500,600", "variable": true },
+      "mono": { "family": "Fira Code", "source": "Google Fonts", "weights": "400", "variable": false }
+    },
+    "scale": {
+      "hero": { "desktop": "72px", "mobile": "40px", "lineHeight": "0.95", "weight": "800", "letterSpacing": "-0.03em", "font": "display" },
+      "h1": { "desktop": "48px", "mobile": "32px", "lineHeight": "1.1", "weight": "700", "letterSpacing": "-0.02em", "font": "display" },
+      "h2": { "desktop": "36px", "mobile": "26px", "lineHeight": "1.2", "weight": "700", "letterSpacing": "-0.01em", "font": "display" },
+      "h3": { "desktop": "24px", "mobile": "20px", "lineHeight": "1.3", "weight": "600", "font": "display" },
+      "h4": { "desktop": "18px", "mobile": "16px", "lineHeight": "1.4", "weight": "600", "font": "display" },
+      "body": { "desktop": "16px", "mobile": "16px", "lineHeight": "1.6", "weight": "400", "font": "body" },
+      "small": { "desktop": "14px", "mobile": "14px", "lineHeight": "1.5", "weight": "400", "font": "body" },
+      "micro": { "desktop": "11px", "mobile": "11px", "lineHeight": "1.4", "weight": "500", "letterSpacing": "0.08em", "font": "body" },
+      "code": { "desktop": "14px", "mobile": "14px", "lineHeight": "1.5", "weight": "400", "font": "mono" }
+    },
+    "rules": [
+      "Headlines em âmbar #F0C142 ou branco #F5F5F5 sobre fundo escuro",
+      "Peso 800 reservado exclusivamente para Hero",
+      "Fira Code para referências normativas: NBR 5419-3:2026, LPL I, r = 20m"
+    ]
+  },
+
+  "spacing": {
+    "base": 4,
+    "scale": {
+      "2xs": "4px",
+      "xs": "8px",
+      "sm": "12px",
+      "md": "16px",
+      "lg": "24px",
+      "xl": "32px",
+      "2xl": "48px",
+      "3xl": "64px",
+      "4xl": "96px",
+      "5xl": "128px"
+    }
+  },
+
+  "shape": {
+    "radius": { "sm": "6px", "md": "10px", "lg": "16px" },
+    "shadow": {
+      "elevated": "0 4px 24px rgba(10,22,40,0.18)",
+      "modal": "0 16px 64px rgba(3,9,18,0.8)"
+    },
+    "borderWidth": "1px"
+  },
+
+  "motion": {
+    "duration": {
+      "instant": "80ms",
+      "fast": "150ms",
+      "normal": "250ms",
+      "slow": "400ms"
+    },
+    "easing": {
+      "default": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "out": "cubic-bezier(0, 0, 0.2, 1)"
+    },
+    "animations": {
+      "button-cta": { "behavior": "scale 1 → 1.02", "duration": "150ms", "easing": "ease-out" },
+      "card-hover": { "behavior": "translateY -2px + shadow elevada", "duration": "150ms", "easing": "ease-out" },
+      "accordion": { "behavior": "height expand", "duration": "250ms", "easing": "default" },
+      "badge": { "behavior": "fade-in + translateY 4px → 0", "duration": "200ms", "easing": "ease-out" },
+      "page-sections": { "behavior": "fade-in stagger 80ms", "duration": "400ms", "easing": "ease-out" }
+    },
+    "rules": [
+      "Nunca usar motion como decoração — só quando comunica estado",
+      "Stagger máximo de 80ms entre elementos em lista",
+      "Desabilitar se prefers-reduced-motion"
+    ]
+  }
+}
