@@ -251,7 +251,7 @@ Type `*help` to see all commands, or `*guide` for detailed usage.
 ### Prerequisites
 
 1. Brand Engine app exists in `app/` with working `BrandConfig` types
-2. Existing brands for reference (`spotify.ts`, `rupta.ts`, `nr10-master.ts`)
+2. Existing brands for reference (`spotify.ts`, `nova-nbr5419.ts`, `expo-eletrica.ts`)
 3. Data files in `squads/brand-factory/data/` (archetypes, niches, etc.)
 
 ### How It Works
